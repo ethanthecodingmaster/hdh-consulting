@@ -1,7 +1,26 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { contactFormSchema } from "@/lib/schemas";
-import { serviceOptions, gradeOptions } from "@/lib/schemas";
+import { z } from "zod";
+
+const contactFormSchema = z.object({
+  name: z.string().min(2).max(50),
+  email: z.string().email(),
+  phone: z.string().min(10).max(15),
+  messenger: z.string().max(100).optional(),
+  service: z.string().min(1),
+  grade: z.string().optional(),
+  message: z.string().min(10).max(2000),
+});
+
+const serviceLabels: Record<string, string> = {
+  "university-consulting": "대입컨설팅",
+  "boarding-consulting": "보딩스쿨컨설팅",
+  "graduate-consulting": "대학원컨설팅",
+  "transfer-consulting": "편입컨설팅",
+  "extracurricular-consulting": "대외활동컨설팅",
+  "other-consulting": "기타 컨설팅",
+  other: "기타 / 잘 모르겠어요",
+};
 
 export async function POST(request: Request) {
   try {
@@ -10,24 +29,20 @@ export async function POST(request: Request) {
 
     if (!result.success) {
       return NextResponse.json(
-        { error: "입력 정보를 확인해 주세요.", details: result.error.flatten() },
+        { error: "Invalid input", details: result.error.flatten() },
         { status: 400 }
       );
     }
 
     const data = result.data;
-
-    const serviceLabel =
-      serviceOptions.find((s) => s.value === data.service)?.label ?? data.service;
-    const gradeLabel = data.grade
-      ? gradeOptions.find((g) => g.value === data.grade)?.label ?? data.grade
-      : "미입력";
+    const serviceLabel = serviceLabels[data.service] ?? data.service;
+    const gradeLabel = data.grade || "미입력 / Not provided";
 
     const smtpHost = process.env.SMTP_HOST;
     const smtpPort = Number(process.env.SMTP_PORT ?? "587");
     const smtpUser = process.env.SMTP_USER;
     const smtpPass = process.env.SMTP_PASS;
-    const contactEmail = process.env.CONTACT_EMAIL ?? "contact@hdh-consulting.com";
+    const contactEmail = process.env.CONTACT_EMAIL ?? "info@hdh-consulting.com";
 
     if (!smtpHost || !smtpUser || !smtpPass) {
       console.log("[Contact Form Submission]", {
@@ -37,57 +52,37 @@ export async function POST(request: Request) {
         timestamp: new Date().toISOString(),
       });
 
-      return NextResponse.json({
-        success: true,
-        message: "문의가 접수되었습니다. (SMTP 미설정 — 로그로 저장됨)",
-      });
+      return NextResponse.json({ success: true });
     }
 
     const transporter = nodemailer.createTransport({
       host: smtpHost,
       port: smtpPort,
       secure: smtpPort === 465,
-      auth: {
-        user: smtpUser,
-        pass: smtpPass,
-      },
+      auth: { user: smtpUser, pass: smtpPass },
     });
 
     await transporter.sendMail({
       from: `"HDH Consulting Website" <${smtpUser}>`,
       to: contactEmail,
       replyTo: data.email,
-      subject: `[HDH Consulting] ${serviceLabel} 상담 신청 — ${data.name}`,
+      subject: `[HDH Consulting] ${serviceLabel} — ${data.name}`,
       text: [
         `이름: ${data.name}`,
         `이메일: ${data.email}`,
         `연락처: ${data.phone}`,
+        `카카오톡/SNS: ${data.messenger || "미입력"}`,
         `학년: ${gradeLabel}`,
         `관심 서비스: ${serviceLabel}`,
         ``,
         `문의 내용:`,
         data.message,
       ].join("\n"),
-      html: `
-        <h2>HDH Consulting 상담 신청</h2>
-        <table style="border-collapse:collapse;width:100%;max-width:600px;">
-          <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">이름</td><td style="padding:8px;border:1px solid #ddd;">${data.name}</td></tr>
-          <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">이메일</td><td style="padding:8px;border:1px solid #ddd;">${data.email}</td></tr>
-          <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">연락처</td><td style="padding:8px;border:1px solid #ddd;">${data.phone}</td></tr>
-          <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">학년</td><td style="padding:8px;border:1px solid #ddd;">${gradeLabel}</td></tr>
-          <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">관심 서비스</td><td style="padding:8px;border:1px solid #ddd;">${serviceLabel}</td></tr>
-        </table>
-        <h3 style="margin-top:24px;">문의 내용</h3>
-        <p style="white-space:pre-wrap;">${data.message}</p>
-      `,
     });
 
-    return NextResponse.json({ success: true, message: "문의가 접수되었습니다." });
+    return NextResponse.json({ success: true });
   } catch (error) {
     console.error("[Contact API Error]", error);
-    return NextResponse.json(
-      { error: "문의 전송에 실패했습니다. 잠시 후 다시 시도해 주세요." },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to send" }, { status: 500 });
   }
 }

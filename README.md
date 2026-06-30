@@ -36,7 +36,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Route | Description |
 |---|---|
-| `/` | Home — hero, services, why HDH, process, testimonials, FAQ |
+| `/` | Home — hero, services, why HDH, process, FAQ |
 | `/about` | Company story, values, consultant background |
 | `/services` | All consulting services with tabs |
 | `/contact` | Contact form, phone, Kakao, Crisp chat |

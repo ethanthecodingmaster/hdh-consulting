@@ -1,0 +1,593 @@
+{
+  "common": {
+    "brand": "HDH Consulting",
+    "skipToContent": "Skip to main content",
+    "freeConsultation": "Free Consultation",
+    "learnMore": "Explore Services",
+    "readMore": "Learn more",
+    "target": "Who it's for",
+    "included": "What's included",
+    "process": "Process",
+    "highlights": "Key strengths",
+    "kakaoConsult": "KakaoTalk Chat",
+    "language": "Language",
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "successStories": "Success Stories",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "footer": {
+      "shortcuts": "Quick Links",
+      "contact": "Contact",
+      "admission": "Admissions",
+      "extracurricular": "Extracurriculars",
+      "kakao": "KakaoTalk Chat",
+      "tagline": "Expert study abroad consulting for US, UK, and Asia — admissions, boarding, graduate school, transfer, and extracurriculars.",
+      "copyright": "© {year} HDH Consulting. All rights reserved.",
+      "seoKeywords": "Study Abroad Consulting · College Admissions · International Education",
+      "hours": "KST 9:00 AM – 10:00 PM (consultations available year-round)"
+    },
+    "breadcrumbHome": "Home"
+  },
+  "home": {
+    "badge": "Affordable Study Abroad Consulting",
+    "h1Line1": "Your path to studying abroad starts with",
+    "h1Highlight": "expert consulting",
+    "h1Line2": "HDH Consulting",
+    "description": "From US, UK, and Asia university admissions to extracurricular strategy — we build data-driven, personalized plans for every student.",
+    "trustPoints": [
+      "Consultants from top universities",
+      "Tailored one-on-one consulting",
+      "Affordable pricing, premium quality",
+      "Structured admissions roadmap"
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "500+",
+        "label": "EC database entries"
+      },
+      {
+        "value": "85%",
+        "label": "QS Top 50 acceptance rate"
+      }
+    ],
+    "services": {
+      "label": "Consulting Services",
+      "title": "Our Consulting Services",
+      "description": "Personalized support for every stage — school selection, essays, recommendations, and extracurriculars."
+    },
+    "why": {
+      "label": "Why HDH Consulting",
+      "title": "Why students choose HDH Consulting",
+      "description": "We Thrive To Excellence — born in a top-university community, dedicated to each student's success."
+    },
+    "process": {
+      "label": "Consulting Process",
+      "title": "How our consulting works",
+      "description": "A clear four-step process from the first meeting through application and results."
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Common questions about study abroad preparation and our services."
+    },
+    "cta": {
+      "title": "Take the first step — start with a free consultation",
+      "description": "Our team will help you build a strategy tailored to your goals and profile."
+    },
+    "whyItems": [
+      {
+        "number": "01",
+        "title": "Proven expertise",
+        "description": "Born in a top-university community, we deliver accurate guidance backed by extensive admissions data and real outcomes."
+      },
+      {
+        "number": "02",
+        "title": "Tailored consulting",
+        "description": "Application strategists, EC coaches, and essay specialists work as one team for each student — with unlimited meetings."
+      },
+      {
+        "number": "03",
+        "title": "Fair pricing, premium quality",
+        "description": "Lean operations mean high-quality, personalized consulting at a fraction of large-agency costs."
+      },
+      {
+        "number": "04",
+        "title": "Free consultation",
+        "description": "Start with a no-pressure consultation. Get the information you need before making your decision."
+      }
+    ],
+    "processSteps": [
+      {
+        "title": "Initial meeting",
+        "description": "We assess your profile, target schools, and timeline to set the direction of your strategy."
+      },
+      {
+        "title": "Document prep",
+        "description": "Transcripts, recommendations, and activity records — organized systematically with gaps addressed."
+      },
+      {
+        "title": "Essay writing",
+        "description": "From brainstorming through drafts and revisions to the final essay that tells your story."
+      },
+      {
+        "title": "Applications & results",
+        "description": "Support through Common App, UCAS, and other platforms — plus interview prep and outcome review."
+      }
+    ],
+    "seo": {
+      "title": "HDH Consulting — Expert Study Abroad & Admissions Consulting",
+      "p1": "HDH Consulting helps students and families preparing for study in the US, UK, Canada, and Asia. We offer integrated consulting across university admissions, boarding school, graduate school, transfer, and extracurricular planning.",
+      "p2": "Founded in a top-university community, we draw on over a decade of admissions data and real acceptance outcomes — including Ivy League, QS Top 50, and Oxbridge placements. Our team approach combines application strategy, extracurricular coaching, and essay support.",
+      "p3": "Unlike large agencies, we deliver high-quality consulting at a fair price. Reach us by phone, KakaoTalk, or email for a free consultation."
+    }
+  },
+  "services": {
+    "pageCta": "Have questions about {service}? <link>Request a free consultation</link> for a tailored strategy.",
+    "university-consulting": {
+      "title": "University Admissions",
+      "cardDescription": "US, UK & Asia applications — essays, recommendations, school list",
+      "description": "Comprehensive study abroad consulting for university applications in the US, UK, Canada, and Asia. We analyze GPA, extracurriculars, and test scores to build a strategic school list and guide you through essays, recommendations, and the full application process.",
+      "metaDescription": "University admissions consulting for the US, UK, and Asia — school selection, essays, recommendations, and interview prep with HDH Consulting.",
+      "target": "High school students (grades 9–12) and gap-year students",
+      "included": [
+        "Custom school list aligned with target universities and majors",
+        "Common App / UCAS / country-specific application support",
+        "Personal statement planning, drafting, and revision",
+        "Recommendation letter requests and teacher guidance",
+        "SAT/ACT/AP/IELTS/TOEFL preparation roadmap",
+        "Extracurricular strengthening strategy",
+        "Interview prep and mock interviews",
+        "Early Decision / Regular Decision strategy"
+      ],
+      "process": [
+        "Initial consultation and profile analysis",
+        "School list and application strategy",
+        "Essay brainstorming and drafting",
+        "Application submission and outcome management"
+      ],
+      "highlights": [
+        "Ivy League and QS Top 50 acceptance track record",
+        "Reach/Match/Safety classification based on your profile",
+        "Unlimited one-on-one meetings"
+      ]
+    },
+    "boarding-consulting": {
+      "title": "Boarding School",
+      "cardDescription": "Top boarding schools — SAO, SSAT prep, college pathway planning",
+      "description": "Specialized consulting for admission to top US boarding schools. Drawing on experience with schools like Phillips Exeter, Andover, and Choate, we support SAO applications, SSAT preparation, and long-term college planning.",
+      "metaDescription": "US boarding school consulting — SAO applications, SSAT prep, and college pathway planning with HDH Consulting.",
+      "target": "Middle school students (grades 5–8) and boarding school transfer applicants",
+      "included": [
+        "Boarding school research and school list development",
+        "SAO (Standard Application Online) application support",
+        "SSAT/ISEE test preparation roadmap",
+        "Essay and short-answer writing",
+        "Parent statement guidance",
+        "Campus visit and interview preparation",
+        "Post-boarding college planning"
+      ],
+      "process": [
+        "Initial consultation with student and parents",
+        "School list and SSAT preparation plan",
+        "SAO and essay writing",
+        "Interview prep and application submission"
+      ],
+      "highlights": [
+        "Experience with Top 30 boarding schools",
+        "Boarding-to-college pathway roadmap",
+        "Parent communication support"
+      ]
+    },
+    "graduate-consulting": {
+      "title": "Graduate School",
+      "cardDescription": "SOP & PHS, faculty outreach, research & internship planning",
+      "description": "Expert consulting for US, UK, and European graduate programs (Master's and PhD). From SOP and PHS writing to faculty outreach and research/internship planning, we support the entire graduate admissions process.",
+      "metaDescription": "Graduate school consulting for the US and UK — SOP/PHS writing, faculty outreach, and research planning.",
+      "target": "University students, graduates, and working professionals",
+      "included": [
+        "Graduate career planning and program matching",
+        "Statement of Purpose (SOP) writing",
+        "Personal History Statement (PHS) writing",
+        "Professional CV/Resume writing",
+        "Faculty outreach and lab matching",
+        "GRE/GMAT/IELTS/TOEFL preparation roadmap",
+        "Recommendation letter requests and professor guidance"
+      ],
+      "process": [
+        "Career and major consultation and program research",
+        "SOP/PHS planning and writing",
+        "Faculty outreach and securing recommendations",
+        "Application submission and interview preparation"
+      ],
+      "highlights": [
+        "Top 20 graduate program acceptance record",
+        "Tailored strategy for students with limited research experience",
+        "PhD vs. Master's pathway analysis"
+      ]
+    },
+    "transfer-consulting": {
+      "title": "Transfer Admissions",
+      "cardDescription": "Transfer school analysis, essays, credit transfer strategy",
+      "description": "Consulting for domestic and international university students seeking to transfer abroad. We support transfer school analysis, transfer essay writing, and credit transfer strategy.",
+      "metaDescription": "Transfer admissions consulting — transfer essays, credit strategy, and UC/Top LAC transfer placements.",
+      "target": "Domestic and international university students, including those on leave",
+      "included": [
+        "Transfer-eligible school analysis and list building",
+        "Transfer essay / personal statement writing",
+        "College transcript organization and analysis",
+        "Recommendation requests (professors/advisors)",
+        "Credit transfer strategy",
+        "Application submission and outcome management"
+      ],
+      "process": [
+        "Current academic record and credit analysis",
+        "Transfer school list and strategy",
+        "Transfer essay writing",
+        "Application submission and outcome management"
+      ],
+      "highlights": [
+        "UC and top liberal arts college transfer placements",
+        "Strategy to minimize credit loss",
+        "Support for enrolled and leave-of-absence students"
+      ]
+    },
+    "extracurricular-consulting": {
+      "title": "Extracurricular Consulting",
+      "cardDescription": "500+ EC database, competition support, portfolio building",
+      "description": "Using a database of 500+ extracurricular opportunities, we help you build a complete portfolio — volunteering, leadership, competitions, essay contests, major-related programs, research, and internships.",
+      "metaDescription": "Extracurricular consulting — 500+ EC database, competition support, and portfolio development.",
+      "target": "All students who need a strong EC portfolio",
+      "included": [
+        "Annual EC planning and schedule management",
+        "Access to 500+ EC database resources",
+        "Major-aligned EC program recommendations",
+        "International competition and contest support",
+        "One-on-one coaching with specialist instructors",
+        "Resume / activity list writing"
+      ],
+      "process": [
+        "Current EC assessment and gap analysis",
+        "Annual EC roadmap development",
+        "Competition and program participation coaching",
+        "Portfolio completion and resume polish"
+      ],
+      "highlights": [
+        "500+ EC database",
+        "Coverage of Ivy League EC categories",
+        "Standalone EC consulting available"
+      ]
+    },
+    "other-consulting": {
+      "title": "Other Programs",
+      "cardDescription": "Online internships, career exploration, custom programs",
+      "description": "Additional consulting services including online internships, career exploration, and custom programs. Strengthen your EC portfolio through hands-on projects across nine fields and major/career exploration.",
+      "metaDescription": "Online internships, career exploration, and custom study abroad consulting — nine fields of project-based programs.",
+      "target": "High school and university students seeking major exploration and EC strengthening",
+      "included": [
+        "Online internship programs across nine fields",
+        "Hands-on project work and portfolio building",
+        "Certificates and recommendation letters",
+        "Major and career exploration counseling",
+        "Resume-worthy experience",
+        "Mentoring and feedback sessions"
+      ],
+      "process": [
+        "Major and interest consultation",
+        "Program matching and enrollment",
+        "Online project completion",
+        "Completion and portfolio organization"
+      ],
+      "highlights": [
+        "Programs across nine major fields",
+        "100% online — flexible time and location",
+        "EC building and career exploration combined"
+      ]
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "When should I start study abroad consulting?",
+        "answer": "For university admissions, grades 10–11 is ideal. Boarding school applicants often begin in middle school. Graduate applicants should start 1–2 years before graduation. We'll map out a timeline based on your grade and goals."
+      },
+      {
+        "question": "How much does HDH Consulting cost?",
+        "answer": "We offer high-quality consulting at rates more affordable than large agencies. Pricing depends on scope and your situation — we'll provide a detailed quote during your consultation."
+      },
+      {
+        "question": "Do you cover the US, UK, and Asia?",
+        "answer": "Yes. We consult for admissions in the US, UK, Canada, Singapore, Hong Kong, and more — with strategies built on each country's system and our acceptance data."
+      },
+      {
+        "question": "Can I get extracurricular consulting only?",
+        "answer": "Yes. EC consulting is available as a standalone service, including our 500+ activity database, annual planning, competition support, and portfolio development."
+      }
+    ]
+  },
+  "contact": {
+    "heroLabel": "Contact Us",
+    "heroTitle": "Free Study Abroad Consultation",
+    "heroDescription": "Feel free to reach out with any questions about preparing to study abroad.",
+    "methodsTitle": "How to reach us",
+    "methodsDescription": "Contact the HDH Consulting team in whatever way is most convenient for you.",
+    "formTitle": "Consultation request form",
+    "formDescription": "Fill out the form below and we'll get back to you within 24 hours.",
+    "methods": {
+      "admission": {
+        "title": "Admissions consulting",
+        "description": "University, boarding, graduate & transfer inquiries"
+      },
+      "extracurricular": {
+        "title": "Extracurricular consulting",
+        "description": "EC & internship program inquiries"
+      },
+      "kakao": {
+        "title": "KakaoTalk chat",
+        "value": "Open KakaoTalk channel",
+        "description": "Quick message consultation"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Documents & detailed inquiries"
+      }
+    },
+    "breadcrumb": "Contact",
+    "hours": "KST 9:00 AM – 10:00 PM (consultations available year-round)",
+    "breadcrumbHome": "Home"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "messengerLabel": "Messenger / SNS ID (Optional)",
+    "messengerPlaceholder": "KakaoTalk ID, Instagram, etc.",
+    "grade": "Grade (optional)",
+    "serviceLabel": "Service of interest",
+    "message": "Message",
+    "selectGrade": "Please select",
+    "selectService": "Please select",
+    "submit": "Request free consultation",
+    "submitting": "Sending...",
+    "successTitle": "Your request has been submitted",
+    "successMessage": "We'll contact you shortly. Thank you!",
+    "newInquiry": "Submit another inquiry",
+    "sendError": "Failed to send. Please try again or call us directly.",
+    "phonePlaceholder": "010-0000-0000",
+    "serviceOptions": [
+      {
+        "value": "university-consulting",
+        "label": "University Admissions"
+      },
+      {
+        "value": "boarding-consulting",
+        "label": "Boarding School"
+      },
+      {
+        "value": "graduate-consulting",
+        "label": "Graduate School"
+      },
+      {
+        "value": "transfer-consulting",
+        "label": "Transfer Admissions"
+      },
+      {
+        "value": "extracurricular-consulting",
+        "label": "Extracurricular Consulting"
+      },
+      {
+        "value": "other-consulting",
+        "label": "Other Programs"
+      },
+      {
+        "value": "other",
+        "label": "Not sure yet"
+      }
+    ],
+    "gradeOptions": [
+      {
+        "value": "middle",
+        "label": "Middle school"
+      },
+      {
+        "value": "high-9",
+        "label": "Grade 10"
+      },
+      {
+        "value": "high-10",
+        "label": "Grade 11"
+      },
+      {
+        "value": "high-11",
+        "label": "Grade 12"
+      },
+      {
+        "value": "college",
+        "label": "University student"
+      },
+      {
+        "value": "graduate",
+        "label": "Graduate school applicant"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "validation": {
+      "nameMin": "Please enter at least 2 characters.",
+      "nameMax": "Name must be 50 characters or fewer.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "serviceRequired": "Please select a service.",
+      "messageMin": "Please enter at least 10 characters.",
+      "messageMax": "Message must be 2000 characters or fewer."
+    }
+  },
+  "locale": "en",
+  "about": {
+    "heroLabel": "About Us",
+    "heroTitle": "Study abroad experts — HDH Consulting",
+    "heroDescription": "Born in a top-university community, HDH Consulting provides data-driven, personalized study abroad consulting for students preparing to study overseas.",
+    "storyTitle": "Our story",
+    "storyParagraphs": [
+      "Under our motto \"We Thrive To Excellence,\" HDH Consulting offers professional yet approachable consulting for students dreaming of studying abroad.",
+      "Founded in a top-university community, we have built extensive admissions data and real acceptance experience — from Ivy League and Oxbridge to leading universities across Asia.",
+      "Unlike large agencies, we operate with lean overhead to deliver high-quality consulting at a fair price."
+    ],
+    "consultantTitle": "Consultant background",
+    "consultantItems": [
+      "Consultants from top US and UK universities",
+      "10+ years of study abroad consulting experience",
+      "Strong Ivy League and QS Top 50 placement record",
+      "500+ extracurricular activity database",
+      "Specialized one-on-one counseling for students and parents"
+    ],
+    "valuesLabel": "Our Values",
+    "valuesTitle": "What we stand for",
+    "valuesDescription": "At its core, study abroad consulting is about student growth and success.",
+    "valuesItems": [
+      {
+        "title": "Student-first",
+        "description": "We build strategies tailored to each student's goals, strengths, and situation."
+      },
+      {
+        "title": "Data-driven",
+        "description": "Objective, accurate guidance backed by extensive admissions data and outcomes."
+      },
+      {
+        "title": "Integrity",
+        "description": "Transparent, honest communication with students and parents alike."
+      },
+      {
+        "title": "Team consulting",
+        "description": "Application strategists, EC coaches, and essay specialists work as one team per student."
+      }
+    ],
+    "ctaTitle": "Consulting you can trust",
+    "ctaDescription": "Start your study abroad journey with HDH Consulting. Explore a tailored strategy through a free consultation.",
+    "viewStories": "View success stories →",
+    "metaTitle": "About | HDH Consulting Study Abroad Consulting",
+    "metaDescription": "HDH Consulting is a professional study abroad consulting firm born in a top-university community — strategies built on data and real outcomes."
+  },
+  "successStories": {
+    "heroLabel": "Success Stories",
+    "heroTitle": "HDH Consulting success stories",
+    "heroDescription": "Acceptance outcomes from Ivy League, QS Top 50, Oxbridge, and other top universities. Student names are anonymized to protect privacy.",
+    "sectionTitle": "Acceptance stories",
+    "sectionDescription": "Every student started from a different place — personalized strategy made the difference.",
+    "highlightLabel": "Key outcome",
+    "studentLabel": "Anonymous",
+    "cta": "Start your own path with a <link>free consultation</link>.",
+    "metaTitle": "Success Stories | HDH Consulting",
+    "metaDescription": "See how students reached Ivy League, QS Top 50, and Oxbridge placements with HDH Consulting.",
+    "items": [
+      {
+        "id": "upenn-wharton-2024",
+        "student": "Applicant A",
+        "year": "2024",
+        "university": "University of Pennsylvania (Wharton)",
+        "major": "Economics",
+        "service": "Extracurricular Consulting",
+        "summary": "From few ECs to Wharton ED acceptance",
+        "highlight": "Wharton Investment Competition semifinalist",
+        "detail": "With almost no extracurriculars in 11th grade, we recommended the Wharton Investment Competition aligned with the student's economics focus and provided one-on-one coaching. The student reached the semifinals, refined the essay narrative, and was admitted to UPenn Wharton via Early Decision in 2024."
+      },
+      {
+        "id": "uc-berkeley-2025",
+        "student": "Applicant B",
+        "year": "2025",
+        "university": "UC Berkeley",
+        "major": "Economics",
+        "service": "Admissions & EC Consulting",
+        "summary": "Started in 11th grade — Berkeley in 8 months",
+        "highlight": "AMC award + leadership + volunteering portfolio",
+        "detail": "We built an intensive 8-month roadmap starting in the second semester of 11th grade. AMC awards, campus leadership, and volunteering were organized systematically, and essays were refined for a 2025 Regular Decision acceptance to UC Berkeley Economics."
+      },
+      {
+        "id": "nus-business-2023",
+        "student": "Applicant C",
+        "year": "2023",
+        "university": "National University of Singapore",
+        "major": "Business",
+        "service": "University Admissions",
+        "summary": "NUS Business acceptance with GPA & AP strategy",
+        "highlight": "Personal Statement revised 4+ times",
+        "detail": "Before applying to NUS, we planned GPA and AP course strategy and revised the Personal Statement more than four times. The student was admitted to NUS Business in Fall 2023, with continued support for transfer planning."
+      },
+      {
+        "id": "boarding-exeter-2024",
+        "student": "Applicant D",
+        "year": "2024",
+        "university": "Phillips Exeter Academy",
+        "major": "Boarding School",
+        "service": "Boarding School Consulting",
+        "summary": "Prepared from grade 9 — accepted to Exeter",
+        "highlight": "SSAT 95th percentile + completed SAO",
+        "detail": "SSAT prep and SAO writing began in grade 9. The student's curiosity and community contribution were woven into SAO essays, leading to Fall 2024 admission to Phillips Exeter Academy."
+      },
+      {
+        "id": "columbia-grad-2025",
+        "student": "Applicant E",
+        "year": "2025",
+        "university": "Columbia University",
+        "major": "Public Policy (Master's)",
+        "service": "Graduate School Consulting",
+        "summary": "Non-traditional background to Columbia SIPA",
+        "highlight": "SOP + faculty outreach strategy",
+        "detail": "For a business graduate pivoting to public policy, we designed the SOP narrative and faculty outreach strategy. The student was admitted to Columbia SIPA's Master's Program in Fall 2025."
+      },
+      {
+        "id": "ucl-transfer-2024",
+        "student": "Applicant F",
+        "year": "2024",
+        "university": "UCL",
+        "major": "Economics",
+        "service": "Transfer Admissions",
+        "summary": "Successful UCL transfer while enrolled in Korea",
+        "highlight": "Transfer essay + optimized credit transfer",
+        "detail": "While enrolled at a Korean university, we targeted UCL Economics transfer with essay writing and credit transfer strategy. The student successfully transferred in Fall 2024."
+      }
+    ]
+  },
+  "blog": {
+    "heroLabel": "Blog",
+    "heroTitle": "Study abroad & admissions insights",
+    "heroDescription": "2026 trends, essay guides, and admission statistics — practical articles from HDH Consulting.",
+    "sectionTitle": "Latest articles",
+    "sectionDescription": "Guides on study abroad consulting, essays, SOPs, and top university admission data.",
+    "readMore": "Read article",
+    "published": "Published",
+    "postCta": "Need study abroad consulting? Get a free, tailored strategy session.",
+    "metaTitle": "Study Abroad Blog | HDH Consulting",
+    "metaDescription": "2026 admissions trends, essay and SOP guides, Ivy League, UK, and Asia university statistics.",
+    "categories": {
+      "essay": "Essays",
+      "graduate": "Graduate",
+      "statistics": "Statistics",
+      "trends": "Trends"
+    }
+  },
+  "metadata": {
+    "site": {
+      "defaultTitle": "HDH Consulting | Study Abroad Consulting",
+      "titleTemplate": "%s | HDH Consulting",
+      "description": "HDH Consulting provides expert study abroad consulting for US, UK, and Asia — university admissions, boarding school, graduate school, transfer, and extracurriculars."
+    },
+    "home": {
+      "title": "HDH Consulting — Affordable Study Abroad Consulting",
+      "description": "Expert study abroad consulting for US, UK, and Asia admissions, boarding school, graduate school, transfer, and extracurricular strategy."
+    },
+    "contact": {
+      "title": "Free Consultation | HDH Consulting",
+      "description": "Request a free consultation with HDH Consulting. Admissions: +8210-7744-1684, EC: +8210-7512-5725. KakaoTalk and email available."
+    },
+    "serviceTitleSuffix": "HDH Consulting"
+  }
+}
