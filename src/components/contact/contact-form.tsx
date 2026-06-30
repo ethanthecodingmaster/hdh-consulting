@@ -18,6 +18,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/lib/site-config";
 
 type SelectOption = { value: string; label: string };
 
@@ -57,12 +58,39 @@ export function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     setSubmitStatus("idle");
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+      const serviceLabel =
+        serviceOptions.find((o) => o.value === data.service)?.label ?? data.service;
+      const gradeLabel =
+        gradeOptions.find((o) => o.value === data.grade)?.label ?? data.grade ?? "";
+
+      const response = await fetch(
+        `https://formsubmit.co/ajax/${encodeURIComponent(siteConfig.contact.email)}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            name: data.name,
+            email: data.email,
+            phone: data.phone,
+            messenger: data.messenger || "미입력 / Not provided",
+            grade: gradeLabel || "미입력 / Not provided",
+            service: serviceLabel,
+            message: data.message,
+            _subject: `[HDH Consulting] ${serviceLabel} — ${data.name}`,
+            _captcha: "false",
+            _template: "table",
+          }),
+        }
+      );
+
       if (!response.ok) throw new Error("Failed");
+
+      const result = (await response.json()) as { success?: string };
+      if (!result.success) throw new Error("Failed");
+
       setSubmitStatus("success");
       reset();
     } catch {
