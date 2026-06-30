@@ -12,7 +12,7 @@ export const services: ServiceMeta[] = [
   { slug: "graduate-consulting", subtitle: "Graduate School Application", icon: "BookOpen" },
   { slug: "transfer-consulting", subtitle: "Transfer Application", icon: "ArrowRightLeft" },
   { slug: "extracurricular-consulting", subtitle: "Extracurricular Activities & Portfolio", icon: "Trophy" },
-  { slug: "other-consulting", subtitle: "Online Internship & Custom Programs", icon: "Briefcase" },
+  { slug: "other-consulting", subtitle: "Essay · Application Support · Resume", icon: "Briefcase" },
 ];
 
 export function getServiceBySlug(slug: ServiceSlug) {

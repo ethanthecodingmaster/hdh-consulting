@@ -265,29 +265,131 @@
       ]
     },
     "other-consulting": {
-      "title": "Other Programs",
-      "cardDescription": "Online internships, career exploration, custom programs",
-      "description": "Additional consulting services including online internships, career exploration, and custom programs. Strengthen your EC portfolio through hands-on projects across nine fields and major/career exploration.",
-      "metaDescription": "Online internships, career exploration, and custom study abroad consulting — nine fields of project-based programs.",
-      "target": "High school and university students seeking major exploration and EC strengthening",
+      "title": "Other Consulting Services",
+      "cardDescription": "Essay editing, one-time application support, Resume consulting",
+      "description": "HDH Consulting provides comprehensive study abroad consulting services.",
+      "intro": "Our programs are designed so students can follow the application process step by step from their own perspective. We also offer one-time services such as essay editing, translation, and school research.",
+      "metaDescription": "Essay editing and translation, one-time application roadmaps and school selection, English Resume consulting — HDH Consulting other services.",
+      "target": "Students who need focused support for essays, applications, or Resume only",
       "included": [
-        "Online internship programs across nine fields",
-        "Hands-on project work and portfolio building",
-        "Certificates and recommendation letters",
-        "Major and career exploration counseling",
-        "Resume-worthy experience",
-        "Mentoring and feedback sessions"
+        "Academic consulting (roadmap, grades, career planning)",
+        "English essay editing, translation, and workshops",
+        "One-time application roadmap, school selection, and research",
+        "English Resume consulting and templates",
+        "Both ongoing and one-time customized consulting",
+        "Unlimited essay revision support"
       ],
       "process": [
-        "Major and interest consultation",
-        "Program matching and enrollment",
-        "Online project completion",
-        "Completion and portfolio organization"
+        "Initial consultation — We meet with the student and parents and recommend the right other consulting service for your needs.",
+        "Roadmap planning — We explain the steps needed to complete the service and work through solutions tailored to your profile and intended major.",
+        "Service delivery — We carry out the consulting, share progress updates, provide feedback, and complete the process.",
+        "Follow-up support — Clients who have received other consulting services can request help anytime for follow-up needs such as document preparation."
       ],
       "highlights": [
-        "Programs across nine major fields",
-        "100% online — flexible time and location",
-        "EC building and career exploration combined"
+        "1:1 online meetings with essayists from top universities",
+        "No limit on essay revisions",
+        "Resume consulting with working professionals (Big 4, startups)",
+        "Affordable one-time application services"
+      ],
+      "serviceListTitle": "Other Consulting Service List",
+      "additionalInfoTitle": "Additional Information",
+      "serviceCategories": [
+        {
+          "title": "Academic Consulting",
+          "subtitle": "Consistent academic and career support",
+          "description": "Academic consulting provides comprehensive academic support. It is ideal for students wondering what to prepare for university, transfer, or graduate school admissions.",
+          "steps": [
+            "1. We begin with an initial consultation to assess academic achievement and establish career direction.",
+            "2. You receive a consultant roadmap covering course selection, grade improvement, and extracurricular support.",
+            "3. Additional academic support — essay editing, Q&A, and more — is included. If specialized tutoring is needed, we can connect you with teachers. (Tutoring may incur separate fees.)",
+            "4. Throughout the service, we hold regular academic check-ins, provide a customized curriculum, suggest majors, and help set career goals."
+          ]
+        },
+        {
+          "title": "Essay",
+          "subtitle": "English essay editing, translation, and more",
+          "description": "Our essay service pairs you with essayists from top universities for regular 1:1 online meetings to complete the essays you need. Beyond editing, students can attend workshops on different essay types.",
+          "steps": [
+            "For one-time essay support, we follow a structured process: idea development → first draft → revisions → final version, with regular meetings throughout.",
+            "There is no limit on revisions — the service continues until you are satisfied with the final result."
+          ]
+        },
+        {
+          "title": "One-Time Application Services",
+          "subtitle": "Application roadmap, school selection, research",
+          "description": "One-time application services are designed to help students reach their top-university goals more efficiently. They are ideal for students who need a comprehensive solution at a reasonable price.",
+          "steps": [
+            "1. Application roadmap service: Through 1:1 meetings, we clarify each university's requirements (test scores, grades, major-aligned extracurriculars) and deliver a comprehensive application roadmap. After the meeting, you receive a PDF roadmap with final feedback.",
+            "2. School selection service: We analyze recent admissions data, objectively assess your academic profile and extracurricular record, and identify suitable universities. Through 1:1 meetings, we guide you to the best-fit schools and majors for your aptitude and abilities."
+          ]
+        },
+        {
+          "title": "Resume Service",
+          "subtitle": "English resume consulting & templates",
+          "description": "An English resume is essential for university admissions and internship preparation. This service suits students applying to university, transfer, graduate school, or internships who need a polished English resume. Work with professionals from startups and Big 4 consulting firms to complete a resume in your field.",
+          "steps": [
+            "Our Resume service follows: consultation → draft delivery → revision and refinement → review and editing → final completion.",
+            "Through conversations with working professionals, you learn how to highlight your strengths and work together toward a successful application."
+          ]
+        }
+      ],
+      "infoSections": [
+        {
+          "title": "Required Application Documents",
+          "items": [
+            {
+              "number": "01",
+              "title": "Online Application",
+              "description": "Prepare the personal information and details required on the application. In the US, most universities use the Common App; UC schools use the UC system; others may have their own portals. Requirements, documents, and information vary by country, school, and major — always verify carefully."
+            },
+            {
+              "number": "02",
+              "title": "Official Transcript",
+              "description": "Obtain an official transcript from your school. If the semester has not ended, you may submit projected grades, but be sure to submit final grades once the term is complete."
+            },
+            {
+              "number": "03",
+              "title": "Letter of Recommendation",
+              "description": "Request letters from 1–3 teachers or counselors who know you well and can speak to your strengths. For the Common App, teachers submit directly. On other systems, you may receive the letter and upload it yourself."
+            },
+            {
+              "number": "04",
+              "title": "SAT / TOEFL / IB / AP (Standardized Tests)",
+              "description": "Submit predicted or final scores from standardized tests (SAT, TOEFL, IB, AP, IELTS). Scores are typically entered on the application; official results may later be sent directly to universities by the testing body (e.g., IBO)."
+            },
+            {
+              "number": "05",
+              "title": "Resume",
+              "description": "Your English resume showcases activities and awards — volunteer work, leadership, research, programs, clubs, competitions, and more.",
+              "note": "See our Extracurricular Consulting page for detailed Resume writing guidance."
+            }
+          ]
+        },
+        {
+          "title": "Essay Writing Process",
+          "items": [
+            {
+              "number": "01",
+              "title": "Essay Prompt Preparation",
+              "description": "Identify essay prompts by country and school. In the US, review Common App prompts and each university's supplemental essays. For the UK and Asia, review Personal Statement requirements."
+            },
+            {
+              "number": "02",
+              "title": "Topic Selection & Brainstorming",
+              "description": "Select essay topics and brainstorm experiences that best convey your message. Different prompt types — values, personality, and more — each require tailored preparation."
+            },
+            {
+              "number": "03",
+              "title": "Essay Outline & First Draft",
+              "description": "Outline your essay and write the first draft. Work with your essayist to plan structure by section and keyword, check what each paragraph needs, then draft the essay."
+            },
+            {
+              "number": "04",
+              "title": "Final Draft",
+              "description": "Edit and finalize your essay. Through regular meetings, revise as many times as needed until the essay is complete."
+            }
+          ]
+        }
       ]
     }
   },
