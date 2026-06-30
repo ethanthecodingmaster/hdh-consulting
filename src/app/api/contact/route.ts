@@ -44,15 +44,18 @@ export async function POST(request: Request) {
     const smtpPass = process.env.SMTP_PASS;
     const contactEmail = process.env.CONTACT_EMAIL ?? "info@hdh-consulting.com";
 
-    if (!smtpHost || !smtpUser || !smtpPass) {
-      console.log("[Contact Form Submission]", {
-        ...data,
-        serviceLabel,
-        gradeLabel,
-        timestamp: new Date().toISOString(),
-      });
+    const missing = [
+      !smtpHost && "SMTP_HOST",
+      !smtpUser && "SMTP_USER",
+      !smtpPass && "SMTP_PASS",
+    ].filter(Boolean);
 
-      return NextResponse.json({ success: true });
+    if (missing.length > 0) {
+      console.error("[Contact API] Missing env vars:", missing.join(", "));
+      return NextResponse.json(
+        { error: "Email service is not configured. Please try again later or contact us by phone." },
+        { status: 503 }
+      );
     }
 
     const transporter = nodemailer.createTransport({
@@ -60,7 +63,13 @@ export async function POST(request: Request) {
       port: smtpPort,
       secure: smtpPort === 465,
       auth: { user: smtpUser, pass: smtpPass },
+      ...(smtpHost?.includes("gmail.com") && {
+        requireTLS: true,
+        tls: { minVersion: "TLSv1.2" },
+      }),
     });
+
+    await transporter.verify();
 
     await transporter.sendMail({
       from: `"HDH Consulting Website" <${smtpUser}>`,
