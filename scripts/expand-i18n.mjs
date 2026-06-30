@@ -621,7 +621,7 @@ const metadataKo = {
   contact: {
     title: "무료 상담 신청 | 유학컨설팅 HDH Consulting",
     description:
-      "HDH Consulting 유학컨설팅 무료 상담 신청. 입시 010-7744-1684, 대외활동 010-7512-5725. 카카오톡·이메일 상담 가능.",
+      "HDH Consulting 유학컨설팅 무료 상담 신청. 입시 010-7744-1684, 대외활동 010-7403-3510. 카카오톡·이메일 상담 가능.",
   },
   serviceTitleSuffix: "HDH Consulting 유학컨설팅",
 };
@@ -641,7 +641,7 @@ const metadataEn = {
   contact: {
     title: "Free Consultation | HDH Consulting",
     description:
-      "Request a free consultation with HDH Consulting. Admissions: 010-7744-1684, EC: 010-7512-5725. KakaoTalk and email available.",
+      "Request a free consultation with HDH Consulting. Admissions: 010-7744-1684, EC: 010-7403-3510. KakaoTalk and email available.",
   },
   serviceTitleSuffix: "HDH Consulting",
 };

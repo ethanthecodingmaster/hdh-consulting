@@ -11,7 +11,7 @@ export const siteConfig = {
   language: "ko",
   contact: {
     admission: { label: "입시·원서 컨설팅", phone: "010-7744-1684", tel: "01077441684" },
-    extracurricular: { label: "대외활동 컨설팅", phone: "010-7512-5725", tel: "01075125725" },
+    extracurricular: { label: "대외활동 컨설팅", phone: "010-7403-3510", tel: "01074033510" },
     email: "info@hdh-consulting.com",
     kakao: "http://pf.kakao.com/_ePyjb/chat",
     hours: "KST 09:00 – 22:00 (연중무휴 상담 가능)",

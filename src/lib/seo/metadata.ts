@@ -82,7 +82,7 @@ export const successStoriesMetadata = createMetadata({
 export const contactMetadata = createMetadata({
   title: "무료 상담 신청 | 유학컨설팅 HDH Consulting",
   description:
-    "HDH Consulting 유학컨설팅 무료 상담 신청. 입시 010-7744-1684, 대외활동 010-7512-5725. 카카오톡·이메일 상담 가능.",
+    "HDH Consulting 유학컨설팅 무료 상담 신청. 입시 010-7744-1684, 대외활동 010-7403-3510. 카카오톡·이메일 상담 가능.",
   pathname: "/contact",
   locale: "ko",
 });
