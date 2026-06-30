@@ -424,7 +424,6 @@
         "Affordable one-time application services"
       ],
       "serviceListTitle": "Other Consulting Service List",
-      "additionalInfoTitle": "Additional Information",
       "serviceCategories": [
         {
           "title": "Academic Consulting",
@@ -462,64 +461,6 @@
           "steps": [
             "Our Resume service follows: consultation → draft delivery → revision and refinement → review and editing → final completion.",
             "Through conversations with working professionals, you learn how to highlight your strengths and work together toward a successful application."
-          ]
-        }
-      ],
-      "infoSections": [
-        {
-          "title": "Required Application Documents",
-          "items": [
-            {
-              "number": "01",
-              "title": "Online Application",
-              "description": "Prepare the personal information and details required on the application. In the US, most universities use the Common App; UC schools use the UC system; others may have their own portals. Requirements, documents, and information vary by country, school, and major — always verify carefully."
-            },
-            {
-              "number": "02",
-              "title": "Official Transcript",
-              "description": "Obtain an official transcript from your school. If the semester has not ended, you may submit projected grades, but be sure to submit final grades once the term is complete."
-            },
-            {
-              "number": "03",
-              "title": "Letter of Recommendation",
-              "description": "Request letters from 1–3 teachers or counselors who know you well and can speak to your strengths. For the Common App, teachers submit directly. On other systems, you may receive the letter and upload it yourself."
-            },
-            {
-              "number": "04",
-              "title": "SAT / TOEFL / IB / AP (Standardized Tests)",
-              "description": "Submit predicted or final scores from standardized tests (SAT, TOEFL, IB, AP, IELTS). Scores are typically entered on the application; official results may later be sent directly to universities by the testing body (e.g., IBO)."
-            },
-            {
-              "number": "05",
-              "title": "Resume",
-              "description": "Your English resume showcases activities and awards — volunteer work, leadership, research, programs, clubs, competitions, and more.",
-              "note": "See our Extracurricular Consulting page for detailed Resume writing guidance."
-            }
-          ]
-        },
-        {
-          "title": "Essay Writing Process",
-          "items": [
-            {
-              "number": "01",
-              "title": "Essay Prompt Preparation",
-              "description": "Identify essay prompts by country and school. In the US, review Common App prompts and each university's supplemental essays. For the UK and Asia, review Personal Statement requirements."
-            },
-            {
-              "number": "02",
-              "title": "Topic Selection & Brainstorming",
-              "description": "Select essay topics and brainstorm experiences that best convey your message. Different prompt types — values, personality, and more — each require tailored preparation."
-            },
-            {
-              "number": "03",
-              "title": "Essay Outline & First Draft",
-              "description": "Outline your essay and write the first draft. Work with your essayist to plan structure by section and keyword, check what each paragraph needs, then draft the essay."
-            },
-            {
-              "number": "04",
-              "title": "Final Draft",
-              "description": "Edit and finalize your essay. Through regular meetings, revise as many times as needed until the essay is complete."
-            }
           ]
         }
       ]

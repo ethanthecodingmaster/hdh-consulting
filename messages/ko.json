@@ -464,7 +464,6 @@
         "합리적인 가격의 1회성 원서 서비스"
       ],
       "serviceListTitle": "기타 컨설팅 서비스 목록",
-      "additionalInfoTitle": "기타 정보 및 안내",
       "serviceCategories": [
         {
           "title": "학업 컨설팅",
@@ -502,64 +501,6 @@
           "steps": [
             "전문 Resume 서비스는 상담 → 초안 제공 → 수정 및 가공 → 상담 및 첨삭 → 최종 완료 순으로 진행됩니다.",
             "현업 종사자와 대화하며 자신의 강점을 어필하는 방법을 터득하고, 성공적인 지원을 위해 함께 노력합니다."
-          ]
-        }
-      ],
-      "infoSections": [
-        {
-          "title": "원서 필요 서류",
-          "items": [
-            {
-              "number": "01",
-              "title": "Online Application (원서 지원서)",
-              "description": "원서에 요구되는 Personal Information 등에 대한 정보를 준비합니다. 미국의 경우 대부분의 대학교는 Common App 시스템을 이용하며, UC 계열은 UC 시스템을, 기타 대학교는 자체 원서 시스템이 있습니다. 나라·학교·전공별 필요한 요구조건, 서류와 정보가 다르니 꼭 확인해야 합니다."
-            },
-            {
-              "number": "02",
-              "title": "Official Transcript (성적표)",
-              "description": "학교로부터 공식적인 성적표를 발급받습니다. 학기가 끝나지 않았다면 예상 성적을 첨부하되, 필히 학기 종료 후 Final Grade를 첨부하도록 합니다."
-            },
-            {
-              "number": "03",
-              "title": "Letter of Recommendation (추천서)",
-              "description": "추천서는 1~3명의 선생님 또는 카운슬러로부터 작성을 요청합니다. 나에 대해 잘 알고 있거나, 장점을 어필해 줄 수 있는 선생님께 요청합니다. Common App의 경우 선생님께서 직접 추천서를 작성하여 첨부하며, 기타 원서 시스템의 경우 추천서를 전달받아 학생이 첨부할 수 있습니다."
-            },
-            {
-              "number": "04",
-              "title": "SAT / TOEFL / IB / AP (공인성적)",
-              "description": "공인시험(SAT, TOEFL, IB, AP, IELTS)에서 Prediction 또는 Final Grade를 첨부합니다. 통상적으로 원서에 점수를 기입하며, 추후 시험 결과가 나오면 단체(예: IBO)에서 대학교로 직접 전달합니다."
-            },
-            {
-              "number": "05",
-              "title": "Resume (영문이력서)",
-              "description": "영문 이력서는 지원자의 활동 및 수상 경력을 어필합니다. 봉사활동, 리더십, 연구논문, 프로그램, 동아리 활동, 경시대회 수상 등 모든 활동에 대해 작성합니다.",
-              "note": "HDH Consulting 대외활동 컨설팅 페이지에서 자세한 Resume 작성 방법을 확인할 수 있습니다."
-            }
-          ]
-        },
-        {
-          "title": "에세이 작성 과정",
-          "items": [
-            {
-              "number": "01",
-              "title": "Essay Prompt Preparation",
-              "description": "나라 및 학교별 에세이 주제를 파악합니다. 미국의 경우 Common App Essay Prompt를 확인하며, 대학별 Supplemental Essay Prompt를 추가로 웹사이트에서 확인합니다. 영국 및 아시아의 경우 Personal Statement를 확인합니다."
-            },
-            {
-              "number": "02",
-              "title": "Topic Selection & Brainstorming",
-              "description": "에세이 주제 선정 및 브레인스토밍을 진행합니다. 나의 경험 가운데 메시지를 극대화할 수 있는 경험을 선정합니다. 가치관, 성격 등 주제 유형에 맞게 각각 준비할 필요가 있습니다."
-            },
-            {
-              "number": "03",
-              "title": "Essay Outline & First Draft",
-              "description": "에세이 아웃라인을 구상하며 초안을 작성하는 단계입니다. 에세이스트와 함께 아웃라인을 단계별·키워드별로 구상하며 문단별 필요 내용을 점검한 후, 에세이 초안을 작성합니다."
-            },
-            {
-              "number": "04",
-              "title": "Final Draft",
-              "description": "에세이 첨삭 및 완성 단계입니다. 완벽한 에세이가 완성될 때까지 주기적인 미팅을 통해 여러 차례 수정합니다."
-            }
           ]
         }
       ]
