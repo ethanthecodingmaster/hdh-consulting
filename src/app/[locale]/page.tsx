@@ -20,7 +20,8 @@ export async function generateMetadata({
   return createMetadata({
     title: t("home.title"),
     description: t("home.description"),
-    path: locale === "ko" ? "/" : "/en",
+    pathname: "/",
+    locale: locale as Locale,
   });
 }
 

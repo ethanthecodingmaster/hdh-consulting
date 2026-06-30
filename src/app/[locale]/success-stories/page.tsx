@@ -4,6 +4,7 @@ import { SectionHeading, CtaButton } from "@/components/shared/cta-button";
 import { JsonLd } from "@/components/seo/json-ld";
 import { breadcrumbSchema } from "@/lib/seo/structured-data";
 import { createMetadata } from "@/lib/seo/metadata";
+import type { Locale } from "@/i18n/routing";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -29,7 +30,8 @@ export async function generateMetadata({
   return createMetadata({
     title: t("metaTitle"),
     description: t("metaDescription"),
-    path: locale === "ko" ? "/success-stories" : "/en/success-stories",
+    pathname: "/success-stories",
+    locale: locale as Locale,
   });
 }
 

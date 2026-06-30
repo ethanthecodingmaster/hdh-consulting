@@ -23,7 +23,8 @@ export async function generateMetadata({
   return createMetadata({
     title: post.metaTitle,
     description: post.metaDescription,
-    path: locale === "ko" ? `/blog/${slug}` : `/en/blog/${slug}`,
+    pathname: `/blog/${slug}`,
+    locale: locale as Locale,
   });
 }
 

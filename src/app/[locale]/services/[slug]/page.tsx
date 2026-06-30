@@ -28,7 +28,8 @@ export async function generateMetadata({
   return createMetadata({
     title: `${service.title} | ${tMeta("serviceTitleSuffix")}`,
     description: service.metaDescription,
-    path: locale === "ko" ? `/services/${slug}` : `/en/services/${slug}`,
+    pathname: `/services/${slug}`,
+    locale: locale as Locale,
   });
 }
 

@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { SectionHeading } from "@/components/shared/cta-button";
 import { breadcrumbSchema } from "@/lib/seo/structured-data";
 import { createMetadata } from "@/lib/seo/metadata";
+import type { Locale } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
 import { getContactPhone } from "@/lib/contact-phone";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -19,7 +20,8 @@ export async function generateMetadata({
   return createMetadata({
     title: t("contact.title"),
     description: t("contact.description"),
-    path: locale === "ko" ? "/contact" : "/en/contact",
+    pathname: "/contact",
+    locale: locale as Locale,
   });
 }
 
