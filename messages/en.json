@@ -131,137 +131,269 @@
   "services": {
     "pageCta": "Have questions about {service}? <link>Request a free consultation</link> for a tailored strategy.",
     "university-consulting": {
-      "title": "University Admissions",
+      "title": "University Admissions Consulting",
       "cardDescription": "US, UK & Asia applications — essays, recommendations, school list",
-      "description": "Comprehensive study abroad consulting for university applications in the US, UK, Canada, and Asia. We analyze GPA, extracurriculars, and test scores to build a strategic school list and guide you through essays, recommendations, and the full application process.",
-      "metaDescription": "University admissions consulting for the US, UK, and Asia — school selection, essays, recommendations, and interview prep with HDH Consulting.",
-      "target": "High school students (grades 9–12) and gap-year students",
+      "description": "HDH Consulting provides customized university admissions consulting for students aiming to gain admission to top universities abroad.",
+      "intro": "Our programs are designed so students can follow the complex application process step by step. Pricing is measured per school, offering high-quality consulting at a reasonable cost.",
+      "metaDescription": "Top university admissions consulting — school lists, Common App & UCAS applications, essays, recommendations, interviews, and visa support. Affordable HDH Consulting.",
+      "target": "High school students and gap-year students targeting top universities abroad",
       "included": [
-        "Custom school list aligned with target universities and majors",
-        "Common App / UCAS / country-specific application support",
-        "Personal statement planning, drafting, and revision",
-        "Recommendation letter requests and teacher guidance",
-        "SAT/ACT/AP/IELTS/TOEFL preparation roadmap",
-        "Extracurricular strengthening strategy",
-        "Interview prep and mock interviews",
-        "Early Decision / Regular Decision strategy"
+        "Custom university list based on profile and intended major",
+        "Common App / UC / UCAS / country-specific application support",
+        "Essay planning, drafting, and revision for target schools",
+        "Recommendation letters, test scores, and admission requirements guidance",
+        "SAT / TOEFL / IB / AP preparation roadmap",
+        "English resume and activity list development",
+        "Final decision, enrollment, and visa guidance after results"
       ],
       "process": [
-        "Initial consultation and profile analysis",
-        "School list and application strategy",
-        "Essay brainstorming and drafting",
-        "Application submission and outcome management"
+        "Initial meeting — We build an objective university list aligned with your profile and intended major.",
+        "Document preparation — We guide you through recommendation letters, test scores, admission requirements, and all required documents.",
+        "Essay writing — We organize essays for each target school and complete them through regular meetings with your essayist.",
+        "Application & results — After submission, we support final decision meetings, school enrollment, processing, and visa steps through to the end."
       ],
       "highlights": [
-        "Ivy League and QS Top 50 acceptance track record",
-        "Reach/Match/Safety classification based on your profile",
-        "Unlimited one-on-one meetings"
+        "Affordable per-school university consulting",
+        "1:1 support from essayists from top universities",
+        "End-to-end guidance from application to enrollment and visa"
+      ],
+      "serviceListTitle": "Essay Writing Tips",
+      "additionalInfoTitle": "Required Documents & Essay Guide",
+      "serviceCategories": [
+        {
+          "title": "Format",
+          "subtitle": "A consistent essay structure",
+          "description": "Strong essays maintain clear paragraph structure and use transition words for coherence. US Common App essays are often narrative and require smooth flow. UK and Asia Personal Statements are more formal, with each paragraph covering distinct content. (Example: Background – Achievements – Extracurricular Activities – Conclusion)"
+        },
+        {
+          "title": "Story",
+          "subtitle": "Open with a compelling story",
+          "description": "If the opening sentence fails to grab attention, the entire essay suffers. Draw on your most memorable life experience and build a narrative with exposition, rising action, climax, and resolution — cause, effect, and growth. Admissions officers want unique experiences; avoid generic essays."
+        },
+        {
+          "title": "Message",
+          "subtitle": "Deliver a clear message",
+          "description": "A story without meaning cannot reach a strong conclusion. Your essay should convey a message connected to your intended major. For example, a student who expanded an ocean cleanup campaign after experiencing environmental pollution demonstrates both Environmental Studies fit and meaningful activity."
+        },
+        {
+          "title": "Aspiration",
+          "subtitle": "Share your aspirations",
+          "description": "The conclusion is as important as the opening. Write passionately about your five-year goals, vision, intended focus after admission, how the university supports your goals, and how you will contribute to the campus community."
+        }
+      ],
+      "infoSections": [
+        {
+          "title": "Required Application Documents",
+          "items": [
+            {
+              "number": "01",
+              "title": "Online Application",
+              "description": "Prepare personal information and details required on the application. In the US, most schools use the Common App; UC schools use the UC system; others may have their own portals. Requirements vary by country, school, and major — verify carefully."
+            },
+            {
+              "number": "02",
+              "title": "Official Transcript",
+              "description": "Obtain an official transcript from your school. Submit projected grades if the term is ongoing, but always submit final grades after the semester ends."
+            },
+            {
+              "number": "03",
+              "title": "Letter of Recommendation",
+              "description": "Request letters from 1–3 teachers or counselors who know you well and can highlight your strengths. Common App teachers submit directly; other systems may allow student upload."
+            },
+            {
+              "number": "04",
+              "title": "SAT / TOEFL / IB / AP (Standardized Tests)",
+              "description": "Submit predicted or final scores from SAT, TOEFL, IB, AP, IELTS, etc. Enter scores on the application; testing bodies (e.g., IBO) may send official results directly to universities."
+            },
+            {
+              "number": "05",
+              "title": "Resume",
+              "description": "Include volunteer work, leadership, research, programs, clubs, competitions, and all activities.",
+              "note": "See our Extracurricular Consulting page for detailed Resume writing guidance."
+            }
+          ]
+        },
+        {
+          "title": "Essay Writing Process",
+          "items": [
+            {
+              "number": "01",
+              "title": "Essay Prompt Preparation",
+              "description": "Identify essay prompts by country and school — Common App and supplemental essays in the US; Personal Statements in the UK and Asia."
+            },
+            {
+              "number": "02",
+              "title": "Topic Selection & Brainstorming",
+              "description": "Select topics and brainstorm experiences that maximize your message. Prepare separately for different prompt types such as values and personality."
+            },
+            {
+              "number": "03",
+              "title": "Essay Outline & First Draft",
+              "description": "Work with your essayist to outline by section and keyword, review paragraph requirements, then draft the essay."
+            },
+            {
+              "number": "04",
+              "title": "Final Draft",
+              "description": "Revise through regular meetings until the essay reaches a polished final version."
+            }
+          ]
+        }
       ]
     },
     "boarding-consulting": {
-      "title": "Boarding School",
-      "cardDescription": "Top boarding schools — SAO, SSAT prep, college pathway planning",
-      "description": "Specialized consulting for admission to top US boarding schools. Drawing on experience with schools like Phillips Exeter, Andover, and Choate, we support SAO applications, SSAT preparation, and long-term college planning.",
-      "metaDescription": "US boarding school consulting — SAO applications, SSAT prep, and college pathway planning with HDH Consulting.",
-      "target": "Middle school students (grades 5–8) and boarding school transfer applicants",
+      "title": "Boarding School Consulting",
+      "cardDescription": "Top US boarding schools — SAO, SSAT, essays & interviews",
+      "description": "HDH Consulting provides customized boarding school consulting for students aiming to gain admission to top boarding schools abroad.",
+      "intro": "Our programs are designed so students can follow the complex application process step by step. Pricing is measured per school, offering high-quality consulting at a reasonable cost.",
+      "metaDescription": "US boarding school consulting — school lists, SAO applications, SSAT, essay and interview prep. HDH Consulting boarding admissions.",
+      "target": "Middle school students and transfer applicants preparing for boarding school abroad",
       "included": [
-        "Boarding school research and school list development",
+        "Boarding school portfolio built on profile and needs",
+        "Recommendation letters, test scores, and admission requirements guidance",
+        "School-specific essay and interview preparation",
         "SAO (Standard Application Online) application support",
-        "SSAT/ISEE test preparation roadmap",
-        "Essay and short-answer writing",
-        "Parent statement guidance",
-        "Campus visit and interview preparation",
-        "Post-boarding college planning"
+        "Application completion through regular meetings",
+        "Post-boarding college pathway planning"
       ],
       "process": [
-        "Initial consultation with student and parents",
-        "School list and SSAT preparation plan",
-        "SAO and essay writing",
-        "Interview prep and application submission"
+        "Initial meeting — We build a strategic boarding school portfolio based on your profile and needs.",
+        "Document preparation — We guide you through recommendation letters, test scores, admission requirements, and all required documents.",
+        "Application — We organize school essays and interviews and complete applications through regular meetings with your counselor."
       ],
       "highlights": [
-        "Experience with Top 30 boarding schools",
-        "Boarding-to-college pathway roadmap",
-        "Parent communication support"
+        "Affordable per-school boarding consulting",
+        "Experience with top boarding schools",
+        "Integrated essay and interview preparation"
+      ],
+      "serviceListTitle": "Consulting Cases",
+      "serviceCategories": [
+        {
+          "title": "Boarding School Essay",
+          "subtitle": "Boarding School Essay Sample",
+          "description": "Where are we really from? This question arose in my mind when I read \"The Selfish Gene\" by Richard Dawkins, the highly acclaimed British evolutionary biologist. The book was particularly fascinating due to its attempt to explain human behaviors deriving from the human genes, which claim to have programmed human behaviors beforehand. And when I first came across this idea, it powerfully struck my mind since it first led me to think about the very meaning of life. Where do we come from, and if the above fact proves true, what are we supposed to do? Knowing the existence and the importance of genes that created its connection with human behaviors, I was further urged to delve into the basis of human life, the very root of us. As I think about it, genes are likened to the logistics of computer programming, according to this book. Therefore, it led me to believe that reading and decoding genes may explain much of what has occurred in the history of humanity so far, just like we decrypted computer language in computer science and robotics into an understandable message. Therefore, \"The Selfish Gene\" inspired me to study biological science, especially regarding genes, and solve this mystery along the academic journey ahead of me, which suffices for its reason to be the book that I enjoyed the most in the past.",
+          "isSample": true
+        }
       ]
     },
     "graduate-consulting": {
-      "title": "Graduate School",
-      "cardDescription": "SOP & PHS, faculty outreach, research & internship planning",
-      "description": "Expert consulting for US, UK, and European graduate programs (Master's and PhD). From SOP and PHS writing to faculty outreach and research/internship planning, we support the entire graduate admissions process.",
-      "metaDescription": "Graduate school consulting for the US and UK — SOP/PHS writing, faculty outreach, and research planning.",
-      "target": "University students, graduates, and working professionals",
+      "title": "Graduate School Consulting",
+      "cardDescription": "SOP & PHS writing, grad school lists, faculty outreach",
+      "description": "HDH Consulting provides customized graduate school consulting for applicants aiming to gain admission to top graduate programs abroad.",
+      "intro": "Our programs are designed so applicants can follow the complex application process step by step. Pricing is measured per school, offering high-quality consulting at a reasonable cost.",
+      "metaDescription": "Graduate school admissions consulting — SOP & PHS writing, program lists, faculty outreach, application submission. HDH Consulting.",
+      "target": "University students, graduates, and professionals applying to Master's or PhD programs abroad",
       "included": [
-        "Graduate career planning and program matching",
-        "Statement of Purpose (SOP) writing",
-        "Personal History Statement (PHS) writing",
+        "Graduate program list based on profile and intended major",
+        "Target school research and required document guidance",
+        "School-specific SOP planning, drafting, and revision",
+        "1:1 meetings with field-specific essayists",
         "Professional CV/Resume writing",
-        "Faculty outreach and lab matching",
         "GRE/GMAT/IELTS/TOEFL preparation roadmap",
         "Recommendation letter requests and professor guidance"
       ],
       "process": [
-        "Career and major consultation and program research",
-        "SOP/PHS planning and writing",
-        "Faculty outreach and securing recommendations",
-        "Application submission and interview preparation"
+        "Initial meeting — We build an objective graduate school list aligned with your profile and intended major.",
+        "Document preparation — Through target school research, we guide you to prepare all required documents.",
+        "Application — We organize school-specific SOPs and complete applications through regular meetings with your essayist before submission."
       ],
       "highlights": [
-        "Top 20 graduate program acceptance record",
-        "Tailored strategy for students with limited research experience",
-        "PhD vs. Master's pathway analysis"
+        "Affordable per-school graduate consulting",
+        "Field-specific SOP expertise",
+        "Top graduate program acceptance record"
+      ],
+      "serviceListTitle": "Consulting Cases",
+      "serviceCategories": [
+        {
+          "title": "Statement of Purpose",
+          "subtitle": "Statement of Purpose for Business School",
+          "description": "I believe that taking relevant courses in this field will enhance my ability to tackle multi-dimensional management issues, such as employee relations and wage bargains, and strengthen my aptitude for becoming a great leader by gaining sufficient knowledge in the Human Resource Strategy. After gaining theoretical knowledge, I also wish to apply to a mirage of work opportunities available around Monash University, where I am specifically interested in applying to jobs at multinational corporations to gain a multifaceted comprehension of workplace issues and strive to become a global leader by absorbing expertise in the context of international business. Upon self-reflection accrued from past business experiences, paving a career path from an Undergraduate International Business Degree to a Master's in Management will be rough in a way, not regarding academics, but regarding the fulfillment of managing organizations and improving opportunities by strengthening the dynamic environment. Despite my concern, I believe that the Master of Management at Monash University will certainly prepare me as a global member of Australian society and management expert who strives to attain corporate prosperity through efficient management. I sincerely look forward to taking this significant journey ahead of me.",
+          "isSample": true
+        }
       ]
     },
     "transfer-consulting": {
-      "title": "Transfer Admissions",
-      "cardDescription": "Transfer school analysis, essays, credit transfer strategy",
-      "description": "Consulting for domestic and international university students seeking to transfer abroad. We support transfer school analysis, transfer essay writing, and credit transfer strategy.",
-      "metaDescription": "Transfer admissions consulting — transfer essays, credit strategy, and UC/Top LAC transfer placements.",
-      "target": "Domestic and international university students, including those on leave",
+      "title": "Transfer Admissions Consulting",
+      "cardDescription": "Top university transfer, transfer essays, credit strategy",
+      "description": "HDH Consulting provides customized transfer admissions consulting for students aiming to transfer to top universities abroad.",
+      "intro": "Our programs are designed so students can follow the complex application process step by step. Pricing is measured per school, offering high-quality consulting at a reasonable cost.",
+      "metaDescription": "University transfer consulting — major-specific credit analysis, transfer essays, Common App transfer applications. HDH Consulting.",
+      "target": "Domestic and international university students and those on leave preparing to transfer abroad",
       "included": [
-        "Transfer-eligible school analysis and list building",
-        "Transfer essay / personal statement writing",
-        "College transcript organization and analysis",
-        "Recommendation requests (professors/advisors)",
-        "Credit transfer strategy",
-        "Application submission and outcome management"
+        "Major-specific required credits and course verification",
+        "Custom transfer school list by major",
+        "Recommendation letters, test scores, and admission requirements guidance",
+        "Transfer essay writing for target schools",
+        "College transcript analysis",
+        "Credit transfer strategy"
       ],
       "process": [
-        "Current academic record and credit analysis",
-        "Transfer school list and strategy",
-        "Transfer essay writing",
-        "Application submission and outcome management"
+        "Initial meeting — We verify required credits and courses by school and major, and prepare a customized transfer list.",
+        "Document preparation — We guide you through recommendation letters, test scores, admission requirements, and all required documents.",
+        "Application — We organize essays for each target school and complete applications through regular meetings with your essayist."
       ],
       "highlights": [
-        "UC and top liberal arts college transfer placements",
-        "Strategy to minimize credit loss",
-        "Support for enrolled and leave-of-absence students"
+        "Affordable per-school transfer consulting",
+        "Major-specific credit and course requirement analysis",
+        "UC and top liberal arts college transfer placements"
+      ],
+      "serviceListTitle": "Consulting Cases",
+      "serviceCategories": [
+        {
+          "title": "Transfer Application Essay",
+          "subtitle": "Common App Transfer Essay Sample",
+          "description": "Luckily for me, I found that the College of Industrial and Labor Relations at Cornell University provides an outstanding education of various subject matters in line with my interest, such as philosophy, economics, and other social science disciplines, for resolving the major issues occurring in the work unit. And such learning objectives gave me a solid aspiration to join ILR because my ultimate goal is to become an excellent leader running my own business, which, I believe, requires tremendous expertise in the field of labor relations. Thus, from the broad curriculum tackling the workplace issues from various perspectives, I especially wish to take courses regarding labor and employment law and human resource management in depth because these studies will not only teach me the rules and regulations that will enhance the fundamental understanding of labor relations within the company but let me have a unique perspective to resolve issues raised at the workplace.",
+          "isSample": true
+        }
       ]
     },
     "extracurricular-consulting": {
-      "title": "Extracurricular Consulting",
-      "cardDescription": "500+ EC database, competition support, portfolio building",
-      "description": "Using a database of 500+ extracurricular opportunities, we help you build a complete portfolio — volunteering, leadership, competitions, essay contests, major-related programs, research, and internships.",
-      "metaDescription": "Extracurricular consulting — 500+ EC database, competition support, and portfolio development.",
-      "target": "All students who need a strong EC portfolio",
+      "title": "Extracurricular Activities Consulting",
+      "cardDescription": "500+ EC database, competitions, English resume",
+      "description": "HDH Consulting maintains a major-specific extracurricular database with approximately 500 competitions and activities scheduled each year.",
+      "intro": "From world-class research paper competitions to academic conferences, volunteering, leadership camps, academic contests, and certificates — we prepare you comprehensively. Extracurricular activities prove a student's value.",
+      "metaDescription": "Extracurricular consulting — 500+ EC database, major-specific competitions and activities, English resume writing. HDH Consulting study abroad consulting.",
+      "target": "All students who need to strengthen their EC portfolio",
       "included": [
-        "Annual EC planning and schedule management",
-        "Access to 500+ EC database resources",
-        "Major-aligned EC program recommendations",
-        "International competition and contest support",
-        "One-on-one coaching with specialist instructors",
-        "Resume / activity list writing"
+        "Current activity list review and gap analysis",
+        "Quarterly competition and activity recommendations",
+        "Major-specific EC strategy and admissions tips",
+        "Certificate and English resume completion",
+        "UPenn, Harvard, MIT, ISSCY and other top program information",
+        "Competition and project coaching with specialist instructors"
       ],
       "process": [
-        "Current EC assessment and gap analysis",
-        "Annual EC roadmap development",
-        "Competition and program participation coaching",
-        "Portfolio completion and resume polish"
+        "Initial consultation — We review your current situation and activity list and consult on gaps with your EC consultant.",
+        "Competition & activity guidance — We provide quarterly opportunities and major-specific EC strategies with admissions advantages.",
+        "Resume & certificates — After activities, we complete certificates and English resumes needed for applications to strengthen your profile."
       ],
       "highlights": [
-        "500+ EC database",
-        "Coverage of Ivy League EC categories",
-        "Standalone EC consulting available"
+        "500+ extracurricular activity database",
+        "Programs for business, pre-med, engineering, and more",
+        "Committed to providing activity lists and resumes"
+      ],
+      "serviceListTitle": "Top University Programs & Major-Related Activities",
+      "additionalInfoTitle": "English Resume Tips",
+      "serviceCategories": [
+        {
+          "title": "Programs",
+          "subtitle": "Major-specific top programs",
+          "description": "HDH Consulting offers specialized program opportunities in business, pre-med, engineering, and more. Challenge yourself in global investment, business, and coding competitions with expert instructors. We share information and strategies for activities and awards at UPenn, Harvard, MIT, ISSCY, and other leading institutions. Through competition programs, students present unique activity profiles — we commit to providing complete activity lists and resumes."
+        },
+        {
+          "title": "1. Education & Qualification",
+          "subtitle": "Academic background and test scores",
+          "description": "Include your secondary school education, standardized test scores, and GPA."
+        },
+        {
+          "title": "2. Extracurricular Activities",
+          "subtitle": "Business Experience",
+          "description": "Detail each in-school and out-of-school club, volunteer activity, and extracurricular. Order: major-related programs/internships > leadership/volunteering > school activities."
+        },
+        {
+          "title": "3. Awards & Certificates",
+          "subtitle": "Honors and certifications",
+          "description": "List all awards, leadership certificates, NGO volunteer credentials, and competition honors in one line each, including the competition or activity topic."
+        }
       ]
     },
     "other-consulting": {

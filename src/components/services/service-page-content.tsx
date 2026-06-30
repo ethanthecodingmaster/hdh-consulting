@@ -6,12 +6,14 @@ import { useTranslations } from "next-intl";
 import type { ServiceSlug } from "@/lib/site-config";
 import { CtaButton, KakaoCta } from "@/components/shared/cta-button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 
 type ServiceCategory = {
   title: string;
   subtitle: string;
   description: string;
   steps?: string[];
+  isSample?: boolean;
 };
 
 type InfoItem = {
@@ -128,7 +130,15 @@ export function ServicePageContent({ slug, subtitle }: { slug: ServiceSlug; subt
                       <CardTitle className="text-xl text-navy-900">{category.subtitle}</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                      <p className="text-sm leading-relaxed text-navy-700">{category.description}</p>
+                      <p
+                        className={cn(
+                          "text-sm leading-relaxed text-navy-700",
+                          category.isSample &&
+                            "rounded-lg border border-navy-100 bg-navy-50 p-5 italic leading-loose"
+                        )}
+                      >
+                        {category.description}
+                      </p>
                       {category.steps && category.steps.length > 0 && (
                         <ol className="space-y-3 border-t border-navy-100 pt-4">
                           {category.steps.map((step) => (
