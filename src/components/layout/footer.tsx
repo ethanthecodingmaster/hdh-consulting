@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Phone, Mail, MessageCircle } from "lucide-react";
-import { siteConfig } from "@/lib/site-config";
+import { siteConfig, serviceSlugs } from "@/lib/site-config";
 import { getContactPhone } from "@/lib/contact-phone";
 import { BrandWordmark } from "@/components/shared/brand-wordmark";
 
@@ -16,6 +16,7 @@ const footerLinkKeys = [
 
 export function Footer() {
   const t = useTranslations("common");
+  const tServices = useTranslations("services");
   const locale = useLocale();
   const year = new Date().getFullYear();
   const admissionPhone = getContactPhone("admission", locale);
@@ -24,7 +25,7 @@ export function Footer() {
   return (
     <footer className="border-t border-navy-800 bg-navy-950 text-navy-200">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block">
               <BrandWordmark label={t("brand")} className="text-white" />
@@ -38,6 +39,23 @@ export function Footer() {
                 <li key={link.href}>
                   <Link href={link.href} className="text-sm text-navy-300 transition-colors hover:text-white">
                     {t(`nav.${link.key}`)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t("nav.services")}</h2>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/services" className="text-sm font-medium text-white transition-colors hover:text-accent-300">
+                  {t("nav.allServices")}
+                </Link>
+              </li>
+              {serviceSlugs.map((slug) => (
+                <li key={slug}>
+                  <Link href={`/services/${slug}`} className="text-sm text-navy-300 transition-colors hover:text-white">
+                    {tServices(`${slug}.title`)}
                   </Link>
                 </li>
               ))}

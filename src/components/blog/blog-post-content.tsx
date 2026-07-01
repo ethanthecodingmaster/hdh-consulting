@@ -5,7 +5,17 @@ import { Link } from "@/i18n/navigation";
 import { CtaButton } from "@/components/shared/cta-button";
 import type { BlogPost } from "@/lib/content/blog";
 
-export function BlogPostContent({ post }: { post: BlogPost }) {
+type RelatedLink = { href: string; label: string };
+
+export function BlogPostContent({
+  post,
+  relatedServices = [],
+  relatedPosts = [],
+}: {
+  post: BlogPost;
+  relatedServices?: RelatedLink[];
+  relatedPosts?: RelatedLink[];
+}) {
   const t = useTranslations("blog");
   const tCommon = useTranslations("common");
 
@@ -37,6 +47,39 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
           </section>
         ))}
       </div>
+
+      {(relatedServices.length > 0 || relatedPosts.length > 0) && (
+        <div className="mt-12 grid gap-8 border-t border-navy-100 pt-10 sm:grid-cols-2">
+          {relatedServices.length > 0 && (
+            <div>
+              <h2 className="text-lg font-bold text-navy-900">{t("relatedServices")}</h2>
+              <ul className="mt-4 space-y-2">
+                {relatedServices.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="text-sm font-medium text-accent-600 hover:underline">
+                      {link.label} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {relatedPosts.length > 0 && (
+            <div>
+              <h2 className="text-lg font-bold text-navy-900">{t("relatedPosts")}</h2>
+              <ul className="mt-4 space-y-2">
+                {relatedPosts.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="text-sm font-medium text-accent-600 hover:underline">
+                      {link.label} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="mt-12 rounded-2xl border border-navy-100 bg-navy-50 p-8 text-center">
         <p className="text-navy-700">{t("postCta")}</p>

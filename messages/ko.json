@@ -14,6 +14,7 @@
     "nav": {
       "about": "회사 소개",
       "services": "서비스",
+      "allServices": "전체 유학컨설팅 서비스",
       "successStories": "합격 사례",
       "blog": "블로그",
       "contact": "문의하기"
@@ -165,6 +166,15 @@
       "p2": "명문대 커뮤니티에서 시작된 HDH Consulting의 유학컨설팅은 10년 이상 축적된 입시 데이터와 실전 합격 경험을 바탕으로 합니다. 아이비리그, QS Top 50, Oxbridge 등 다양한 합격 사례를 보유하고 있으며, 맞춤 컨설팅 시스템으로 원서 전략·대외활동·에세이 전문가가 한 팀이 되어 학생을 지원합니다.",
       "p3": "대형 유학원과 달리 합리적인 비용으로 높은 퀄리티의 유학컨설팅을 제공합니다. 전화·카카오톡·이메일로 편리하게 무료 상담 신청이 가능합니다."
     }
+  },
+  "servicesPage": {
+    "metaTitle": "유학컨설팅 서비스 | HDH Consulting",
+    "metaDescription": "대입·보딩·편입·대학원·대외활동 유학컨설팅. 미국·영국·아시아권 맞춤 입시 컨설팅을 합리적인 비용으로 제공합니다. HDH Consulting 무료 상담.",
+    "heroLabel": "Services",
+    "heroTitle": "유학컨설팅 서비스",
+    "heroDescription": "미국·영국·아시아권 입시부터 대외활동까지 — 학생 맞춤형 유학컨설팅 서비스를 한곳에서 확인하세요.",
+    "sectionTitle": "맞춤형 입시 컨설팅",
+    "sectionDescription": "대입, 보딩, 편입, 대학원, 대외활동 등 목표에 맞는 유학컨설팅 프로그램을 선택하세요."
   },
   "services": {
     "pageCta": "{service}에 대해 더 궁금하신가요? <link>무료 상담 신청</link>으로 맞춤 전략을 확인하세요.",
@@ -759,6 +769,8 @@
     "readMore": "자세히 읽기",
     "published": "게시일",
     "postCta": "유학컨설팅이 필요하신가요? 맞춤 전략을 무료로 상담해 드립니다.",
+    "relatedServices": "관련 유학컨설팅 서비스",
+    "relatedPosts": "함께 읽으면 좋은 글",
     "metaTitle": "유학·입시 블로그 | 유학컨설팅 HDH Consulting",
     "metaDescription": "2026 유학·입시 트렌드, 에세이·SOP 작성법, 아이비리그·영국·아시아 명문대 통계. 유학컨설팅 HDH Consulting 블로그.",
     "categories": {

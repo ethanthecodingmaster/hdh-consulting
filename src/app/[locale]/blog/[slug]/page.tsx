@@ -6,6 +6,8 @@ import { breadcrumbSchema, getArticleSchema } from "@/lib/seo/structured-data";
 import { createMetadata } from "@/lib/seo/metadata";
 import { blogSlugs, getBlogPost, isBlogSlug } from "@/lib/content/blog";
 import type { Locale } from "@/i18n/routing";
+import { blogRelatedServices, getRelatedBlogSlugs } from "@/lib/seo/blog-links";
+import type { BlogSlug } from "@/lib/content/blog";
 
 export function generateStaticParams() {
   return blogSlugs.map((slug) => ({ slug }));
@@ -40,6 +42,18 @@ export default async function BlogPostPage({
 
   const post = getBlogPost(slug, locale);
   const tCommon = await getTranslations("common");
+  const tServices = await getTranslations("services");
+
+  const relatedServiceSlugs = blogRelatedServices[slug as BlogSlug] ?? [];
+  const relatedServices = relatedServiceSlugs.map((serviceSlug) => ({
+    href: `/services/${serviceSlug}`,
+    label: (tServices.raw(serviceSlug) as { title: string }).title,
+  }));
+
+  const relatedPosts = getRelatedBlogSlugs(slug as BlogSlug, locale).map((relatedSlug) => ({
+    href: `/blog/${relatedSlug}`,
+    label: getBlogPost(relatedSlug, locale).title,
+  }));
 
   return (
     <>
@@ -56,7 +70,7 @@ export default async function BlogPostPage({
 
       <section className="pt-28 pb-16 sm:pt-36 sm:pb-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <BlogPostContent post={post} />
+          <BlogPostContent post={post} relatedServices={relatedServices} relatedPosts={relatedPosts} />
         </div>
       </section>
     </>

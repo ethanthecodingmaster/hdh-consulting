@@ -14,6 +14,7 @@
     "nav": {
       "about": "About",
       "services": "Services",
+      "allServices": "All Consulting Services",
       "successStories": "Success Stories",
       "blog": "Blog",
       "contact": "Contact"
@@ -125,6 +126,15 @@
       "p2": "Founded in a top-university community, we draw on over a decade of admissions data and real acceptance outcomes — including Ivy League, QS Top 50, and Oxbridge placements. Our team approach combines application strategy, extracurricular coaching, and essay support.",
       "p3": "Unlike large agencies, we deliver high-quality consulting at a fair price. Reach us by phone, KakaoTalk, or email for a free consultation."
     }
+  },
+  "servicesPage": {
+    "metaTitle": "Study Abroad Consulting Services | HDH Consulting",
+    "metaDescription": "University, boarding, transfer, graduate, and extracurricular consulting for US, UK, and Asia admissions. Tailored, affordable HDH Consulting.",
+    "heroLabel": "Services",
+    "heroTitle": "Study Abroad Consulting Services",
+    "heroDescription": "From US, UK, and Asia admissions to extracurricular strategy — explore tailored consulting programs in one place.",
+    "sectionTitle": "Tailored Admissions Consulting",
+    "sectionDescription": "Choose the program that fits your goals — university, boarding, transfer, graduate school, or extracurriculars."
   },
   "services": {
     "pageCta": "Have questions about {service}? <link>Request a free consultation</link> for a tailored strategy.",
@@ -719,6 +729,8 @@
     "readMore": "Read article",
     "published": "Published",
     "postCta": "Need study abroad consulting? Get a free, tailored strategy session.",
+    "relatedServices": "Related consulting services",
+    "relatedPosts": "Related articles",
     "metaTitle": "Study Abroad Blog | HDH Consulting",
     "metaDescription": "2026 admissions trends, essay and SOP guides, Ivy League, UK, and Asia university statistics.",
     "categories": {

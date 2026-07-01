@@ -49,6 +49,12 @@ export function Navbar() {
                 {t("nav.services")}
               </button>
               <div className="invisible absolute left-0 top-full z-50 min-w-[240px] rounded-xl border border-navy-100 bg-white py-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
+                <Link
+                  href="/services"
+                  className="block border-b border-navy-100 px-4 py-2.5 text-sm font-semibold text-navy-900 hover:bg-navy-50 hover:text-accent-600"
+                >
+                  {t("nav.allServices")}
+                </Link>
                 {serviceSlugs.map((slug) => (
                   <Link
                     key={slug}
@@ -98,6 +104,13 @@ export function Navbar() {
               </SheetHeader>
               <nav className="mt-6 flex flex-col gap-1" aria-label="Mobile menu">
                 <p className="px-4 text-xs font-semibold uppercase tracking-wider text-navy-400">{t("nav.services")}</p>
+                <Link
+                  href="/services"
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-4 py-2.5 text-sm font-semibold text-navy-900 hover:bg-navy-50"
+                >
+                  {t("nav.allServices")}
+                </Link>
                 {serviceSlugs.map((slug) => (
                   <Link
                     key={slug}

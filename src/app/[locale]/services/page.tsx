@@ -2,12 +2,10 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SectionHeading, CtaButton } from "@/components/shared/cta-button";
 import { JsonLd } from "@/components/seo/json-ld";
-import { breadcrumbSchema, getBlogListSchema } from "@/lib/seo/structured-data";
+import { breadcrumbSchema, getServicesListSchema } from "@/lib/seo/structured-data";
 import { createMetadata } from "@/lib/seo/metadata";
+import { siteConfig, serviceSlugs } from "@/lib/site-config";
 import type { Locale } from "@/i18n/routing";
-import { getAllBlogPosts } from "@/lib/content/blog";
-import { siteConfig } from "@/lib/site-config";
-import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export async function generateMetadata({
@@ -16,16 +14,16 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "blog" });
+  const t = await getTranslations({ locale, namespace: "servicesPage" });
   return createMetadata({
     title: t("metaTitle"),
     description: t("metaDescription"),
-    pathname: "/blog",
+    pathname: "/services",
     locale: locale as Locale,
   });
 }
 
-export default async function BlogPage({
+export default async function ServicesPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -33,10 +31,22 @@ export default async function BlogPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations("blog");
+  const t = await getTranslations("servicesPage");
+  const tServices = await getTranslations("services");
   const tCommon = await getTranslations("common");
-  const posts = getAllBlogPosts(locale);
-  const localePrefix = locale === "en" ? "/en" : "";
+
+  const services = serviceSlugs.map((slug) => {
+    const service = tServices.raw(slug) as { title: string; cardDescription: string; metaDescription: string };
+    const path = `/services/${slug}`;
+    return {
+      slug,
+      title: service.title,
+      description: service.cardDescription,
+      metaDescription: service.metaDescription,
+      path,
+      url: `${siteConfig.url}${locale === "en" ? "/en" : ""}${path}`,
+    };
+  });
 
   return (
     <>
@@ -44,13 +54,13 @@ export default async function BlogPage({
         data={[
           breadcrumbSchema([
             { name: tCommon("breadcrumbHome"), path: "/" },
-            { name: tCommon("nav.blog"), path: "/blog" },
+            { name: tCommon("nav.services"), path: "/services" },
           ]),
-          getBlogListSchema(
-            posts.map((post) => ({
-              title: post.title,
-              url: `${siteConfig.url}${localePrefix}/blog/${post.slug}`,
-              datePublished: post.publishedAt,
+          getServicesListSchema(
+            services.map((service) => ({
+              name: service.title,
+              url: service.url,
+              description: service.metaDescription,
             }))
           ),
         ]}
@@ -68,26 +78,22 @@ export default async function BlogPage({
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <SectionHeading title={t("sectionTitle")} description={t("sectionDescription")} />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map((post) => (
-              <Card key={post.slug} className="flex flex-col border-navy-100 transition-shadow hover:shadow-md">
+            {services.map((service) => (
+              <Card key={service.slug} className="flex flex-col border-navy-100 transition-shadow hover:shadow-md">
                 <CardHeader>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Badge variant="secondary">{post.publishedAt}</Badge>
-                    <Badge className="bg-accent-50 text-accent-700">{t(`categories.${post.category}`)}</Badge>
-                  </div>
-                  <CardTitle className="mt-2 line-clamp-2 text-lg text-navy-900">
-                    <Link href={`/blog/${post.slug}`} className="hover:text-accent-600">
-                      {post.title}
+                  <CardTitle className="text-xl text-navy-900">
+                    <Link href={service.path} className="hover:text-accent-600">
+                      {service.title}
                     </Link>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="mt-auto flex flex-1 flex-col">
-                  <p className="line-clamp-3 flex-1 text-sm leading-relaxed text-navy-600">{post.excerpt}</p>
+                  <p className="flex-1 text-sm leading-relaxed text-navy-600">{service.description}</p>
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={service.path}
                     className="mt-4 text-sm font-semibold text-accent-600 hover:text-accent-700"
                   >
-                    {t("readMore")} →
+                    {tCommon("readMore")} →
                   </Link>
                 </CardContent>
               </Card>
