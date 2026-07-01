@@ -1,22 +1,61 @@
 import { getTranslations } from "next-intl/server";
 import { getBlogPost, type BlogSlug } from "@/lib/content/blog";
-import { siteConfig } from "@/lib/site-config";
+import { siteConfig, serviceSlugs } from "@/lib/site-config";
 import type { ServiceSlug } from "@/lib/site-config";
 import type { Locale } from "@/i18n/routing";
+
+const SERVICE_PATHS: Record<ServiceSlug, string> = {
+  "university-consulting": "/services/university-consulting",
+  "transfer-consulting": "/services/transfer-consulting",
+  "boarding-consulting": "/services/boarding-consulting",
+  "graduate-consulting": "/services/graduate-consulting",
+  "extracurricular-consulting": "/services/extracurricular-consulting",
+  "other-consulting": "/services/other-consulting",
+};
 
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
+    "@type": ["EducationalOrganization", "ProfessionalService"],
     "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
+    alternateName: ["HDH Consulting 유학컨설팅", "에이치디에이치 컨설팅", "HDH 유학컨설팅"],
     url: siteConfig.url,
     description: siteConfig.description,
-    telephone: siteConfig.contact.admission.tel,
     email: siteConfig.contact.email,
     areaServed: { "@type": "Country", name: "South Korea" },
-    knowsAbout: siteConfig.seoKeywords,
+    knowsAbout: [...siteConfig.seoKeywords, "유학", "유학 추천", "입시"],
     sameAs: [siteConfig.social.instagram],
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: `+82-${siteConfig.contact.admission.tel.slice(1)}`,
+        contactType: "customer service",
+        availableLanguage: ["Korean", "English"],
+        areaServed: "KR",
+        hoursAvailable: siteConfig.contact.hours,
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: `+82-${siteConfig.contact.extracurricular.tel.slice(1)}`,
+        contactType: "customer service",
+        availableLanguage: ["Korean", "English"],
+        areaServed: "KR",
+      },
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "유학컨설팅 서비스",
+      itemListElement: serviceSlugs.map((slug, index) => ({
+        "@type": "Offer",
+        position: index + 1,
+        itemOffered: {
+          "@type": "Service",
+          name: slug,
+          url: `${siteConfig.url}${SERVICE_PATHS[slug]}`,
+        },
+      })),
+    },
   };
 }
 
@@ -24,11 +63,13 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: siteConfig.name,
+    name: `${siteConfig.name} 유학컨설팅`,
+    alternateName: "HDH Consulting",
     url: siteConfig.url,
     description: siteConfig.description,
-    inLanguage: "ko-KR",
+    inLanguage: ["ko-KR", "en-US"],
     publisher: { "@id": `${siteConfig.url}/#organization` },
+    about: { "@id": `${siteConfig.url}/#organization` },
   };
 }
 

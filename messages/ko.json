@@ -494,6 +494,14 @@
       {
         "question": "대외활동 컨설팅만 따로 받을 수 있나요?",
         "answer": "네, 대외활동(EC) 컨설팅은 단독으로도 이용 가능합니다. 500여 개 이상의 EC 데이터베이스, 연간 활동 안내, 대회 참가 지원, 포트폴리오 구성까지 전문적으로 지원합니다."
+      },
+      {
+        "question": "유학컨설팅 업체는 어떻게 고르면 좋나요?",
+        "answer": "합격 데이터, 맞춤 전략, 비용 대비 서비스 범위, 컨설턴트 경력을 비교하는 것이 중요합니다. HDH Consulting은 명문대 출신 컨설턴트 팀이 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅을 제공합니다."
+      },
+      {
+        "question": "유학 상담은 어디서 받을 수 있나요?",
+        "answer": "HDH Consulting은 전화(010-7744-1684), 카카오톡, 이메일(info@hdh-consulting.com)로 무료 유학컨설팅 상담을 제공합니다. KST 09:00–22:00 연중 상담 가능합니다."
       }
     ]
   },
@@ -762,13 +770,13 @@
   },
   "metadata": {
     "site": {
-      "defaultTitle": "유학컨설팅 | HDH Consulting",
-      "titleTemplate": "%s | HDH Consulting",
-      "description": "HDH Consulting은 미국·영국·아시아권 대입, 보딩, 대학원, 편입 및 대외활동 컨설팅을 제공하는 전문 유학컨설팅 회사입니다."
+      "defaultTitle": "유학컨설팅 HDH Consulting | 맞춤형 유학·입시 전문",
+      "titleTemplate": "%s | HDH Consulting 유학컨설팅",
+      "description": "HDH Consulting 유학컨설팅 — 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅. 명문대 출신 컨설턴트, 무료 상담."
     },
     "home": {
-      "title": "유학컨설팅 | HDH Consulting — 합리적인 비용의 유학컨설팅",
-      "description": "유학컨설팅 전문 HDH Consulting. 미국·영국·아시아권 대입, 보딩, 대학원, 편입, 대외활동 컨설팅. 명문대 출신 맞춤 상담."
+      "title": "유학컨설팅 HDH Consulting | 합리적인 비용 맞춤형 유학·입시",
+      "description": "유학컨설팅 전문 HDH Consulting. 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅. 무료 상담 010-7744-1684."
     },
     "contact": {
       "title": "무료 상담 신청 | 유학컨설팅 HDH Consulting",

@@ -3,9 +3,9 @@
  */
 export const siteConfig = {
   name: "HDH Consulting",
-  tagline: "합리적인 비용의 유학컨설팅",
+  tagline: "합리적인 비용의 맞춤형 유학컨설팅",
   description:
-    "HDH Consulting은 미국·영국·아시아권 대입, 보딩, 대학원, 편입 및 대외활동 컨설팅을 제공하는 전문 유학컨설팅 회사입니다.",
+    "HDH Consulting은 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅을 제공하는 전문 유학컨설팅 회사입니다.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://hdh-consulting.com",
   locale: "ko_KR",
   language: "ko",
@@ -20,12 +20,16 @@ export const siteConfig = {
   seoKeywords: [
     "유학컨설팅",
     "유학 컨설팅",
+    "유학",
+    "유학 상담",
     "해외유학",
+    "해외유학 컨설팅",
     "대입컨설팅",
     "보딩컨설팅",
     "대학원컨설팅",
     "편입컨설팅",
     "대외활동컨설팅",
+    "입시 컨설팅",
   ],
 } as const;
 
