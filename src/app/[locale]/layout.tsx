@@ -10,6 +10,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { organizationSchema, websiteSchema } from "@/lib/seo/structured-data";
 import { siteConfig } from "@/lib/site-config";
 import { routing } from "@/i18n/routing";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 const inter = Inter({
@@ -92,6 +93,7 @@ export default async function LocaleLayout({
           <Navbar />
           <main id="main-content">{children}</main>
           <Footer />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
