@@ -25,8 +25,11 @@ export function Hero() {
       />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            {t("headline")}
+          <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+            {t("headlineLine1")}
+            <br className="hidden lg:block" />
+            <span className="lg:hidden"> </span>
+            {t("headlineLine2")}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-navy-200 sm:text-xl">{t("description")}</p>
           <ul className="mt-8 grid gap-2 sm:grid-cols-2">
