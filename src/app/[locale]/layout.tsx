@@ -5,6 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { JsonLd } from "@/components/seo/json-ld";
 import { organizationSchema, websiteSchema } from "@/lib/seo/structured-data";
 import { siteConfig } from "@/lib/site-config";
@@ -84,6 +85,7 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={`${inter.variable} ${cormorant.variable} min-h-screen font-sans antialiased`}>
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <JsonLd data={[organizationSchema(), websiteSchema()]} />
           <SkipLink />
