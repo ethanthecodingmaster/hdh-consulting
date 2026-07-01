@@ -85,8 +85,8 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={`${inter.variable} ${cormorant.variable} min-h-screen font-sans antialiased`}>
-        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
+          <GoogleAnalytics />
           <JsonLd data={[organizationSchema(), websiteSchema()]} />
           <SkipLink />
           <Navbar />
