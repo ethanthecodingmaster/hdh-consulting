@@ -3,7 +3,7 @@ import type { BlogPost } from "./types";
 export const blogPostsKo: Record<string, BlogPost> = {
   "boarding-school-essay-guide": {
     slug: "boarding-school-essay-guide",
-    publishedAt: "2026-04-15",
+    publishedAt: "2026-03-18",
     category: "essay",
     title: "보딩스쿨 에세이 작성법 — SAO·Personal Essay 완벽 가이드",
     excerpt:
@@ -40,7 +40,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "high-school-essay-guide": {
     slug: "high-school-essay-guide",
-    publishedAt: "2026-04-22",
+    publishedAt: "2026-03-25",
     category: "essay",
     title: "고등학생 유학 에세이 작성법 — Personal Statement 핵심 전략",
     excerpt:
@@ -77,7 +77,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "college-essay-guide": {
     slug: "college-essay-guide",
-    publishedAt: "2026-04-29",
+    publishedAt: "2026-04-01",
     category: "essay",
     title: "대입 에세이 작성법 — Common App & Supplemental 완벽 정리",
     excerpt:
@@ -113,7 +113,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "transfer-essay-guide": {
     slug: "transfer-essay-guide",
-    publishedAt: "2026-05-06",
+    publishedAt: "2026-04-08",
     category: "essay",
     title: "편입 에세이 작성법 — Transfer Essay & Why Transfer",
     excerpt:
@@ -149,7 +149,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "graduate-sop-guide": {
     slug: "graduate-sop-guide",
-    publishedAt: "2026-05-13",
+    publishedAt: "2026-04-15",
     category: "graduate",
     title: "대학원 SOP 작성법 — Statement of Purpose 완벽 가이드 2026",
     excerpt:
@@ -185,7 +185,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "ivy-league-admission-stats-2026": {
     slug: "ivy-league-admission-stats-2026",
-    publishedAt: "2026-05-20",
+    publishedAt: "2026-04-22",
     category: "statistics",
     title: "2026 아이비리그 합격률·입시 통계 — 유학 준비에 미치는 시사점",
     excerpt:
@@ -216,7 +216,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "uk-university-admission-stats-2026": {
     slug: "uk-university-admission-stats-2026",
-    publishedAt: "2026-05-27",
+    publishedAt: "2026-04-29",
     category: "statistics",
     title: "2026 영국 명문대 입시 통계 — Oxford, Cambridge, LSE 가이드",
     excerpt:
@@ -246,7 +246,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "singapore-hongkong-admission-stats-2026": {
     slug: "singapore-hongkong-admission-stats-2026",
-    publishedAt: "2026-06-03",
+    publishedAt: "2026-05-06",
     category: "statistics",
     title: "2026 싱가포르·홍콩 명문대 입시 통계 — NUS, NTU, HKU 가이드",
     excerpt:
@@ -276,7 +276,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-trends-2026": {
     slug: "study-abroad-trends-2026",
-    publishedAt: "2026-06-10",
+    publishedAt: "2026-05-13",
     category: "trends",
     title: "2026 유학·입시 트렌드 — 유학컨설팅이 말하는 올해 핵심",
     excerpt:
@@ -312,7 +312,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-06-17",
+    publishedAt: "2026-05-20",
     category: "guide",
     title: "2026 유학컨설팅 선택 가이드 — 좋은 유학 컨설팅 고르는 7가지 기준",
     excerpt:
@@ -399,7 +399,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-06-24",
+    publishedAt: "2026-05-27",
     category: "guide",
     title: "유학원 vs 유학컨설팅 — 차이점과 선택 기준",
     excerpt:
@@ -471,7 +471,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-07-01",
+    publishedAt: "2026-06-03",
     category: "guide",
     title: "미국·영국·아시아 유학 상담 받는 방법 — 무료 유학컨설팅 가이드",
     excerpt:
@@ -529,6 +529,203 @@ export const blogPostsKo: Record<string, BlogPost> = {
         paragraphs: [
           "□ 현실적인 학교 레인을 들었다  □ 6~12개월 일정 초안을 받았다  □ 견적·포함 항목을 이해했다  □ 담당 컨설턴트·연락 방법을 확인했다  □ 다른 업체와 비교할 여지가 남아 있다",
           "유학은 가족의 큰 결정입니다. 한 곳 상담으로 끝내지 말고, 2~3곳의 유학컨설팅을 비교한 뒤 선택하세요. HDH Consulting은 합리적인 비용의 맞춤 유학컨설팅으로 미국·영국·아시아권 입시 전 과정을 지원합니다.",
+        ],
+      },
+    ],
+  },
+  "us-university-consulting-cost-2026": {
+    slug: "us-university-consulting-cost-2026",
+    publishedAt: "2026-06-10",
+    category: "guide",
+    title: "미국 대입컨설팅 비용 2026 — 합리적인 유학컨설팅 견적 가이드",
+    excerpt:
+      "미국 명문대 대입 유학컨설팅 비용이 어떻게 책정되는지, 포함 항목과 추가 비용, 합리적인 견적 비교 방법을 정리했습니다.",
+    metaTitle: "미국 대입컨설팅 비용 2026 | HDH Consulting",
+    metaDescription:
+      "2026 미국 대입 유학컨설팅 비용 가이드. 에세이·학교 수·EC 포함 항목, 견적 비교법. 합리적인 비용의 HDH Consulting 맞춤 컨설팅.",
+    sections: [
+      {
+        paragraphs: [
+          "미국 명문대를 목표로 할 때 '유학컨설팅 비용'은 가장 먼저 궁금한 항목 중 하나입니다. 업체마다 견적 차이가 크기 때문에, 숫자만 비교하면 오히려 손해를 볼 수 있습니다. 2026년 기준으로 대입 유학컨설팅 비용이 어떤 요소로 결정되는지, 무엇을 포함해야 합리적인지 정리했습니다.",
+        ],
+      },
+      {
+        heading: "비용을 결정하는 5가지 요소",
+        paragraphs: [
+          "① 지원 국가·학교 수 — 미국만 vs 미국+영국 복수 지원 ② 에세이 편수 — Common App 본문 + Supplemental 학교별 에세이 ③ EC(대외활동) 컨설팅 포함 여부 ④ 시험·면접·추천서 지원 범위 ⑤ 담당 컨설턴트 미팅 빈도와 첨삭 횟수",
+          "같은 '3,000만 원대' 견적이라도 에세이 2회 첨삭인지, 품질 기준 무제한 피드백인지에 따라 실제 가치가 다릅니다.",
+        ],
+      },
+      {
+        heading: "견적서에서 꼭 확인할 포함 항목",
+        paragraphs: [
+          "학교 리스트 설계, Common App·UC 원서 지원, Supplemental 에세이 첨삭 범위, 추천서 가이드, 면접 모의, ED/EA·RD 일정 관리, 비자·서류 안내까지 계약서에 명시되어 있는지 확인하세요.",
+          "미포함 항목도 적어 달라고 하세요: 학교 추가 비용, 에세이 추가 편, 긴급 첨삭, SAT/토플 별도 클래스 등.",
+        ],
+      },
+      {
+        heading: "유학원 패키지 vs 맞춤 유학컨설팅",
+        paragraphs: [
+          "대형 유학원 패키지는 어학·행정 비용이 함께 묶인 경우가 많습니다. 전문 유학컨설팅은 입시·에세이·EC에 집중해 학교 수와 서비스 범위에 따라 유연하게 책정됩니다.",
+          "명문대를 목표로 한다면 '저렴한 패키지'보다 '포함 항목이 명확한 맞춤 컨설팅'이 결과적으로 합리적인 선택인 경우가 많습니다.",
+        ],
+      },
+      {
+        heading: "HDH Consulting의 접근",
+        paragraphs: [
+          "HDH Consulting은 학교당·서비스 범위 기준으로 합리적인 비용의 맞춤 대입컨설팅을 제공합니다. 무료 상담에서 견적 없이도 포함 항목 비교표를 요청할 수 있으며, 학생 스펙에 맞는 최소·최적 범위를 함께 설계합니다. 입시 상담 010-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "boarding-school-consulting-guide": {
+    slug: "boarding-school-consulting-guide",
+    publishedAt: "2026-06-17",
+    category: "guide",
+    title: "보딩스쿨 컨설팅 선택 가이드 — 2026 미국 기숙학교 유학",
+    excerpt:
+      "미국 보딩스쿨 지원 시 유학컨설팅을 고르는 기준, SSAT·SAO·인터뷰 준비, 비용과 일정을 정리했습니다.",
+    metaTitle: "보딩스쿨 컨설팅 선택 가이드 2026 | HDH Consulting",
+    metaDescription:
+      "미국 보딩스쿨 유학컨설팅 선택법. SSAT, SAO 에세이, 학교 리스트, 인터뷰 준비. HDH Consulting 보딩컨설팅 무료 상담.",
+    sections: [
+      {
+        paragraphs: [
+          "미국 보딩스쿨은 고등학교 유학 중에서도 준비 항목이 많은 편입니다. SSAT, SAO 에세이, 학교별 인터뷰, 재정 증명까지 일정이 촘촘합니다. 이때 보딩 경험이 있는 유학컨설팅을 고르면 시행착오를 크게 줄일 수 있습니다.",
+        ],
+      },
+      {
+        heading: "보딩컨설팅에서 확인할 역량",
+        paragraphs: [
+          "Exeter, Andover, Choate 등 탑 티어 보딩 합격 사례, SSAT 점수대별 현실적인 학교 리스트 설계 경험, SAO·학교별 Supplement 에세이 첨삭, 부모 인터뷰·학생 인터뷰 대비까지 다루는지 확인하세요.",
+          "대입만 전문인 컨설턴트와 보딩 입시는 학교 성향·기숙 생활 적합도를 보는 관점이 다릅니다.",
+        ],
+      },
+      {
+        heading: "준비 일정 — 몇 학년부터?",
+        paragraphs: [
+          "일반적으로 중2~중3(미국 기준 Grade 7–8)부터 본격 준비를 시작하는 경우가 많습니다. SSAT·영어·활동을 병행하려면 12~18개월 전부터 유학컨설팅과 로드맵을 잡는 것이 안전합니다.",
+          "늦게 시작한 경우에도 학교 리스트를 현실적으로 조정하고, 에세이에서 강점을 극대화하는 전략이 중요합니다.",
+        ],
+      },
+      {
+        heading: "비용과 포함 범위",
+        paragraphs: [
+          "보딩 유학컨설팅 비용은 지원 학교 수, 에세이·인터뷰 횟수, SSAT 코칭 포함 여부에 따라 달라집니다. 학비·기숙사 비용과 혼동하지 말고, 컨설팅 견적만 별도로 비교하세요.",
+        ],
+      },
+      {
+        heading: "HDH Consulting 보딩컨설팅",
+        paragraphs: [
+          "HDH Consulting은 미국 보딩스쿨 지원을 위한 맞춤 컨설팅을 제공합니다. SAO 에세이, 학교 선정, 인터뷰 준비까지 합리적인 비용으로 지원합니다. 무료 상담 010-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "parents-study-abroad-consulting-checklist": {
+    slug: "parents-study-abroad-consulting-checklist",
+    publishedAt: "2026-06-24",
+    category: "guide",
+    title: "학부모를 위한 유학컨설팅 체크리스트 — 2026 해외유학 준비",
+    excerpt:
+      "학부모가 유학컨설팅 업체를 고를 때 확인할 안전·비용·합격률·소통 항목을 체크리스트로 정리했습니다.",
+    metaTitle: "학부모 유학컨설팅 체크리스트 | HDH Consulting",
+    metaDescription:
+      "학부모가 꼭 확인해야 할 유학컨설팅 체크리스트. 비용, 안전, 합격 사례, 담당자, 계약 조건. HDH Consulting 무료 상담.",
+    sections: [
+      {
+        paragraphs: [
+          "해외유학은 학생뿐 아니라 학부모의 결정도 큽니다. 유학컨설팅을 알아볼 때 학생은 에세이·활동에, 학부모는 비용·안전·신뢰도에 관심을 두는 경우가 많습니다. 이 체크리스트는 학부모 관점에서 유학컨설팅 업체를 평가할 때 쓸 수 있습니다.",
+        ],
+      },
+      {
+        heading: "신뢰도 — 합격 사례와 투명성",
+        paragraphs: [
+          "□ 구체적인 합격 사례(출발 스펙 + 결과 학교)를 확인했다",
+          "□ 계약 전 서비스 범위가 문서로 제공된다",
+          "□ 과장 광고(100% 합격 등)가 없다",
+          "□ 컨설턴트 실명·경력을 알 수 있다",
+        ],
+      },
+      {
+        heading: "비용 — 숨은 항목 없는지",
+        paragraphs: [
+          "□ 견적에 에세이·학교 수·EC·면접 범위가 명시된다",
+          "□ 추가 비용 발생 조건을 이해했다",
+          "□ 환불·중도 해지 조건을 확인했다",
+          "□ 유학원 패키지와 컨설팅만의 비용을 구분했다",
+        ],
+      },
+      {
+        heading: "안전과 소통",
+        paragraphs: [
+          "□ 비상 연락망·상담 시간대가 명확하다",
+          "□ 학부모에게 진행 상황을 정기 공유한다",
+          "□ 해외 체류 중 질문·이슈 대응 방법을 안내받았다",
+          "□ 카카오톡·전화·이메일 중 편한 채널이 있다",
+        ],
+      },
+      {
+        heading: "학생 맞춤도",
+        paragraphs: [
+          "□ 학생 성향·목표에 맞는 학교 리스트를 제시했다",
+          "□ 학생 본인의 목소리가 에세이에 살아 있는지 중시한다",
+          "□ 무리한 상향 지원만 권하지 않는다",
+        ],
+      },
+      {
+        heading: "다음 단계",
+        paragraphs: [
+          "체크리스트에서 3곳 이상 '예'가 나온 유학컨설팅이라면 비교 상담을 이어가 보세요. HDH Consulting은 학부모·학생 동반 무료 상담을 제공하며, 비용·일정·안전에 대한 질문을 환영합니다. 010-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "study-abroad-prep-timeline-2026": {
+    slug: "study-abroad-prep-timeline-2026",
+    publishedAt: "2026-07-01",
+    category: "guide",
+    title: "유학 준비 시기 가이드 2026 — 언제 유학컨설팅을 시작할까",
+    excerpt:
+      "고1·고2·고3별 유학 준비 타임라인, 유학컨설팅 시작 시점, 시험·에세이·EC 일정을 2026 기준으로 정리했습니다.",
+    metaTitle: "유학 준비 시기 2026 | 유학컨설팅 HDH Consulting",
+    metaDescription:
+      "언제 유학컨설팅을 시작해야 할까? 2026 고교생·학부모를 위한 유학 준비 타임라인. 대입·보딩·대학원. HDH Consulting.",
+    sections: [
+      {
+        paragraphs: [
+          "'유학 준비 몇 학년부터 해야 하나요?'는 유학컨설팅 상담에서 가장 자주 나오는 질문입니다. 목표가 미국 대입, 보딩, 편입, 대학원 중 어디냐에 따라 답이 달라지지만, 2026년 입시 환경을 기준으로 학년별 권장 시점을 정리했습니다.",
+        ],
+      },
+      {
+        heading: "미국 대입 — 고1~고2 시작 권장",
+        paragraphs: [
+          "명문대를 목표로 한다면 고1 하반기~고2에서 유학컨설팅을 시작해 EC 로드맵, 시험(SAT/ACT), 과목 선택을 잡는 것이 이상적입니다. 고3에서 시작하면 에세이·학교 리스트에 시간이 촉박해질 수 있습니다.",
+          "최소한 ED/EA 전 12~18개월 전에는 학교 리스트와 에세이 방향을 확정하는 것이 좋습니다.",
+        ],
+      },
+      {
+        heading: "보딩스쿨 — 중2~중3",
+        paragraphs: [
+          "미국 보딩은 SSAT와 SAO 일정이 빠르게 다가옵니다. 중2~중3부터 보딩 유학컨설팅을 시작해 영어·수학·활동을 병행하세요. 늦었다면 지원 학교 티어를 현실적으로 조정하는 전략이 필요합니다.",
+        ],
+      },
+      {
+        heading: "편입·대학원 — 12~18개월 전",
+        paragraphs: [
+          "편입은 현재 대학 성적·이수 과목·에세이(Why Transfer)가 핵심입니다. 대학원은 학년, 연구·경력, SOP, 추천서 일정에 맞춰 최소 1년 전부터 유학컨설팅을 시작하는 것이 안전합니다.",
+        ],
+      },
+      {
+        heading: "유학컨설팅 시작 후 첫 3개월",
+        paragraphs: [
+          "① 현실적인 학교 레인 확정 ② 시험·EC·에세이 마일스톤 수립 ③ 담당 컨설턴트와 정기 미팅 루틴 설정. 이 3가지가 잡히면 이후 준비가 훨씬 수월해집니다.",
+        ],
+      },
+      {
+        heading: "지금 시작하려면",
+        paragraphs: [
+          "시기가 늦었다고 느껴져도 상담 한 번으로 우선순위를 재정렬할 수 있습니다. HDH Consulting은 미국·영국·아시아권 입시 전 과정에 맞춘 유학컨설팅을 제공합니다. 무료 상담 010-7744-1684, 대외활동 010-7403-3510.",
         ],
       },
     ],

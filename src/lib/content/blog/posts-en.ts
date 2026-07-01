@@ -3,7 +3,7 @@ import type { BlogPost } from "./types";
 export const blogPostsEn: Record<string, BlogPost> = {
   "boarding-school-essay-guide": {
     slug: "boarding-school-essay-guide",
-    publishedAt: "2026-04-15",
+    publishedAt: "2026-03-18",
     category: "essay",
     title: "How to Write Boarding School Essays — SAO & Personal Essay Guide",
     excerpt:
@@ -40,7 +40,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "high-school-essay-guide": {
     slug: "high-school-essay-guide",
-    publishedAt: "2026-04-22",
+    publishedAt: "2026-03-25",
     category: "essay",
     title: "High School Study Abroad Essays — Personal Statement Essentials",
     excerpt:
@@ -77,7 +77,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "college-essay-guide": {
     slug: "college-essay-guide",
-    publishedAt: "2026-04-29",
+    publishedAt: "2026-04-01",
     category: "essay",
     title: "College Essay Guide — Common App & Supplements for 2026",
     excerpt:
@@ -113,7 +113,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "transfer-essay-guide": {
     slug: "transfer-essay-guide",
-    publishedAt: "2026-05-06",
+    publishedAt: "2026-04-08",
     category: "essay",
     title: "Transfer Essay Guide — Writing a Strong Why Transfer Statement",
     excerpt:
@@ -149,7 +149,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "graduate-sop-guide": {
     slug: "graduate-sop-guide",
-    publishedAt: "2026-05-13",
+    publishedAt: "2026-04-15",
     category: "graduate",
     title: "Graduate School SOP Guide — Statement of Purpose for 2026",
     excerpt:
@@ -185,7 +185,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "ivy-league-admission-stats-2026": {
     slug: "ivy-league-admission-stats-2026",
-    publishedAt: "2026-05-20",
+    publishedAt: "2026-04-22",
     category: "statistics",
     title: "2026 Ivy League Admission Statistics — What Applicants Should Know",
     excerpt:
@@ -216,7 +216,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "uk-university-admission-stats-2026": {
     slug: "uk-university-admission-stats-2026",
-    publishedAt: "2026-05-27",
+    publishedAt: "2026-04-29",
     category: "statistics",
     title: "2026 UK University Admission Statistics — Oxford, Cambridge, LSE",
     excerpt:
@@ -246,7 +246,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "singapore-hongkong-admission-stats-2026": {
     slug: "singapore-hongkong-admission-stats-2026",
-    publishedAt: "2026-06-03",
+    publishedAt: "2026-05-06",
     category: "statistics",
     title: "2026 Singapore & Hong Kong University Stats — NUS, NTU, HKU",
     excerpt:
@@ -276,7 +276,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-trends-2026": {
     slug: "study-abroad-trends-2026",
-    publishedAt: "2026-06-10",
+    publishedAt: "2026-05-13",
     category: "trends",
     title: "2026 Study Abroad Trends — What Matters This Admissions Cycle",
     excerpt:
@@ -312,7 +312,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-06-17",
+    publishedAt: "2026-05-20",
     category: "guide",
     title: "2026 Study Abroad Consulting Guide — 7 Criteria for Choosing a Firm",
     excerpt:
@@ -399,7 +399,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-06-24",
+    publishedAt: "2026-05-27",
     category: "guide",
     title: "Study Abroad Agency vs Consulting — Key Differences",
     excerpt:
@@ -471,7 +471,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-07-01",
+    publishedAt: "2026-06-03",
     category: "guide",
     title: "How to Get Study Abroad Advice — Free Consulting Guide",
     excerpt:
@@ -528,6 +528,191 @@ export const blogPostsEn: Record<string, BlogPost> = {
         paragraphs: [
           "□ Heard realistic school lanes  □ Received a 6–12 month draft plan  □ Understood cost and scope  □ Know consultant and contact method  □ Compared at least one other firm",
           "Study abroad is a major family decision. HDH Consulting supports US, UK, and Asia admissions with tailored, affordable consulting.",
+        ],
+      },
+    ],
+  },
+  "us-university-consulting-cost-2026": {
+    slug: "us-university-consulting-cost-2026",
+    publishedAt: "2026-06-10",
+    category: "guide",
+    title: "US University Consulting Cost 2026 — A Fair Pricing Guide",
+    excerpt:
+      "How US admissions consulting fees are structured in 2026 — what's included, hidden costs, and how to compare quotes.",
+    metaTitle: "US University Consulting Cost 2026 | HDH Consulting",
+    metaDescription:
+      "2026 guide to US university consulting fees — essays, school count, EC scope, and fair pricing. HDH Consulting tailored admissions support.",
+    sections: [
+      {
+        paragraphs: [
+          "For families targeting competitive US universities, consulting cost is often the first question — and the widest variable between firms. In 2026, comparing headline numbers alone can backfire. This guide explains what drives pricing and what 'fair' scope looks like.",
+        ],
+      },
+      {
+        heading: "Five factors that shape pricing",
+        paragraphs: [
+          "① Countries and school count ② Essay volume — Common App plus supplements ③ EC consulting inclusion ④ Interview, recommendations, application support ⑤ Meeting frequency and revision model",
+          "Two quotes in the same price band can mean two revision rounds vs. an open quality-based feedback loop.",
+        ],
+      },
+      {
+        heading: "What should be in writing",
+        paragraphs: [
+          "School list design, Common App / UC support, supplemental essay scope, recommendation guidance, interview prep, deadline management, and visa paperwork guidance should be explicit in your contract.",
+          "Ask for excluded items too: extra schools, extra essays, rush edits, separate test prep classes.",
+        ],
+      },
+      {
+        heading: "Agency packages vs tailored consulting",
+        paragraphs: [
+          "Large agency packages may bundle language study and admin fees. Specialized consulting prices around admissions depth — school count and service scope.",
+          "For competitive targets, transparent tailored consulting often delivers better value than the cheapest package.",
+        ],
+      },
+      {
+        heading: "HDH Consulting approach",
+        paragraphs: [
+          "HDH Consulting prices tailored university consulting fairly by scope and school count. Request a comparison table in your free consultation — we'll design the minimum effective plan for your profile. +82-10-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "boarding-school-consulting-guide": {
+    slug: "boarding-school-consulting-guide",
+    publishedAt: "2026-06-17",
+    category: "guide",
+    title: "Boarding School Consulting Guide — Choosing Support in 2026",
+    excerpt:
+      "How to choose boarding school consulting — SSAT, SAO essays, school lists, interviews, and timelines.",
+    metaTitle: "Boarding School Consulting Guide 2026 | HDH Consulting",
+    metaDescription:
+      "US boarding school consulting — SSAT, SAO essays, interviews, school selection. HDH Consulting boarding admissions support.",
+    sections: [
+      {
+        paragraphs: [
+          "US boarding admissions involve SSAT, SAO essays, interviews, and financial documentation on tight timelines. Consulting with real boarding experience reduces costly mistakes.",
+        ],
+      },
+      {
+        heading: "What to look for",
+        paragraphs: [
+          "Acceptance cases at competitive schools, realistic lists by SSAT range, SAO and supplement essay support, and parent/student interview prep — not just university experience.",
+          "Boarding admissions weigh fit for residential community life, not only academics.",
+        ],
+      },
+      {
+        heading: "When to start",
+        paragraphs: [
+          "Many families begin 12–18 months ahead (often Grade 7–8). Late starts require realistic list adjustment and essay strategies that maximize strengths.",
+        ],
+      },
+      {
+        heading: "Cost and scope",
+        paragraphs: [
+          "Consulting fees depend on school count, essay/interview support, and SSAT coaching — separate from tuition and room & board.",
+        ],
+      },
+      {
+        heading: "HDH Consulting boarding support",
+        paragraphs: [
+          "HDH Consulting provides tailored US boarding consulting — SAO essays, school selection, and interview prep at fair pricing. Free consultation: +82-10-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "parents-study-abroad-consulting-checklist": {
+    slug: "parents-study-abroad-consulting-checklist",
+    publishedAt: "2026-06-24",
+    category: "guide",
+    title: "Parents' Study Abroad Consulting Checklist — 2026",
+    excerpt:
+      "A parent-focused checklist for evaluating consulting firms — trust, cost, safety, and communication.",
+    metaTitle: "Parents' Study Abroad Consulting Checklist | HDH Consulting",
+    metaDescription:
+      "What parents should verify before choosing study abroad consulting — cost, safety, cases, contracts. HDH Consulting free consultation.",
+    sections: [
+      {
+        paragraphs: [
+          "Study abroad is a family decision. Students focus on essays and activities; parents often focus on cost, safety, and trust. Use this checklist when evaluating consulting firms.",
+        ],
+      },
+      {
+        heading: "Trust and transparency",
+        paragraphs: [
+          "□ Specific acceptance cases reviewed  □ Written service scope before signing  □ No unrealistic guarantees  □ Consultant credentials are clear",
+        ],
+      },
+      {
+        heading: "Cost clarity",
+        paragraphs: [
+          "□ Essay, school count, EC, and interview scope listed  □ Add-on fee triggers understood  □ Refund / cancellation terms reviewed  □ Agency package vs consulting-only fees separated",
+        ],
+      },
+      {
+        heading: "Safety and communication",
+        paragraphs: [
+          "□ Emergency contact and hours clear  □ Regular progress updates for parents  □ Overseas issue handling explained  □ Comfortable channel (KakaoTalk / phone / email)",
+        ],
+      },
+      {
+        heading: "Student fit",
+        paragraphs: [
+          "□ School list matches student profile  □ Essays preserve student voice  □ No pressure toward unrealistic reach-only lists",
+        ],
+      },
+      {
+        heading: "Next step",
+        paragraphs: [
+          "If most boxes check at a firm, continue comparison consultations. HDH Consulting welcomes parent and student questions on cost, schedule, and safety. +82-10-7744-1684.",
+        ],
+      },
+    ],
+  },
+  "study-abroad-prep-timeline-2026": {
+    slug: "study-abroad-prep-timeline-2026",
+    publishedAt: "2026-07-01",
+    category: "guide",
+    title: "When to Start Study Abroad Prep — 2026 Timeline Guide",
+    excerpt:
+      "Grade-by-grade timelines for US, UK, and Asia admissions — when to begin consulting, tests, essays, and EC.",
+    metaTitle: "Study Abroad Prep Timeline 2026 | HDH Consulting",
+    metaDescription:
+      "When should you start study abroad consulting? 2026 timeline for high school, boarding, transfer, and graduate paths. HDH Consulting.",
+    sections: [
+      {
+        paragraphs: [
+          "'When should we start?' is the most common consulting question. The answer depends on whether you're targeting US university, boarding, transfer, or graduate school — here's a 2026 framework.",
+        ],
+      },
+      {
+        heading: "US university — ideally Grade 10–11",
+        paragraphs: [
+          "For competitive universities, start consulting in Grade 10–11 to shape EC, course selection, and tests. Grade 12-only starts compress essay and list work.",
+          "Aim to lock list direction and essay themes 12–18 months before ED/EA.",
+        ],
+      },
+      {
+        heading: "Boarding — Grade 7–8",
+        paragraphs: [
+          "SSAT and SAO timelines arrive quickly. Begin boarding consulting in middle school when possible; late starts need realistic list strategy.",
+        ],
+      },
+      {
+        heading: "Transfer and graduate — 12–18 months ahead",
+        paragraphs: [
+          "Transfer hinges on college grades, coursework, and Why Transfer essays. Graduate paths need SOP, recommendations, and research timelines — plan at least a year ahead.",
+        ],
+      },
+      {
+        heading: "First 3 months after you start",
+        paragraphs: [
+          "① Realistic school lanes ② Test / EC / essay milestones ③ Regular meeting rhythm with your consultant.",
+        ],
+      },
+      {
+        heading: "Start now",
+        paragraphs: [
+          "Even if you feel late, one consultation can reprioritize. HDH Consulting supports US, UK, and Asia paths with tailored consulting. +82-10-7744-1684 (admissions), +82-10-7403-3510 (EC).",
         ],
       },
     ],

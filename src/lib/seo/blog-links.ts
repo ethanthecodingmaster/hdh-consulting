@@ -19,6 +19,10 @@ export const blogRelatedServices: Partial<Record<BlogSlug, ServiceSlug[]>> = {
   ],
   "agency-vs-consulting": ["university-consulting", "boarding-consulting"],
   "study-abroad-consultation-guide": ["university-consulting", "extracurricular-consulting"],
+  "us-university-consulting-cost-2026": ["university-consulting"],
+  "boarding-school-consulting-guide": ["boarding-consulting"],
+  "parents-study-abroad-consulting-checklist": ["university-consulting", "boarding-consulting"],
+  "study-abroad-prep-timeline-2026": ["university-consulting", "graduate-consulting", "boarding-consulting"],
 };
 
 export function getRelatedBlogSlugs(slug: BlogSlug, locale: string, limit = 3): BlogSlug[] {

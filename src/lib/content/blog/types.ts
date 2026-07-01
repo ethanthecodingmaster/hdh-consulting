@@ -11,6 +11,10 @@ export const blogSlugs = [
   "study-abroad-consulting-guide-2026",
   "agency-vs-consulting",
   "study-abroad-consultation-guide",
+  "us-university-consulting-cost-2026",
+  "boarding-school-consulting-guide",
+  "parents-study-abroad-consulting-checklist",
+  "study-abroad-prep-timeline-2026",
 ] as const;
 
 export type BlogSlug = (typeof blogSlugs)[number];
