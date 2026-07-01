@@ -16,7 +16,11 @@ export const siteConfig = {
     kakao: "http://pf.kakao.com/_ePyjb/chat",
     hours: "KST 09:00 – 22:00 (연중무휴 상담 가능)",
   },
-  social: { instagram: "https://instagram.com/hdhconsulting" },
+  social: {
+    instagram: "https://www.instagram.com/hdh_consulting_/",
+    facebook: "https://www.facebook.com/profile.php?id=100090001231863",
+    soomgo: "https://soomgo.com/profile/users/6492345",
+  },
   seoKeywords: [
     "유학컨설팅",
     "유학 컨설팅",

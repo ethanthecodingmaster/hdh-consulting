@@ -58,6 +58,11 @@ ${recentBlog}
 - KakaoTalk: ${siteConfig.contact.kakao}
 - Hours: ${siteConfig.contact.hours}
 
+## Social & external profiles
+- Instagram: ${siteConfig.social.instagram}
+- Facebook: ${siteConfig.social.facebook}
+- Soomgo (숨고): ${siteConfig.social.soomgo}
+
 ## Key differentiators
 - Consultants from top universities; 10+ years admissions data
 - Tailored 1:1 consulting (맞춤형 유학컨설팅)

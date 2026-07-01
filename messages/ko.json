@@ -28,7 +28,8 @@
       "tagline": "미국·영국·아시아권 대입, 보딩, 대학원, 편입, 대외활동 전문 유학컨설팅.",
       "copyright": "© {year} HDH Consulting. All rights reserved.",
       "seoKeywords": "유학컨설팅 · 유학 컨설팅 · 해외유학 전문",
-      "hours": "KST 09:00 – 22:00 (연중무휴 상담 가능)"
+      "hours": "KST 09:00 – 22:00 (연중무휴 상담 가능)",
+      "social": "SNS · 외부 프로필"
     },
     "breadcrumbHome": "홈"
   },
@@ -543,6 +544,8 @@
         "description": "서류·상세 문의"
       }
     },
+    "socialTitle": "SNS · 외부 프로필",
+    "socialDescription": "Instagram, Facebook, 숨고에서도 HDH Consulting 유학컨설팅을 확인하실 수 있습니다.",
     "breadcrumb": "문의하기",
     "hours": "KST 09:00 – 22:00 (연중무휴 상담 가능)",
     "breadcrumbHome": "홈"

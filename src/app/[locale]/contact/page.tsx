@@ -1,6 +1,7 @@
 import { Phone, Mail, MessageCircle } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactForm } from "@/components/contact/contact-form";
+import { SocialLinks } from "@/components/shared/social-links";
 import { JsonLd } from "@/components/seo/json-ld";
 import { SectionHeading } from "@/components/shared/cta-button";
 import { breadcrumbSchema } from "@/lib/seo/structured-data";
@@ -103,6 +104,11 @@ export default async function ContactPage({
                     </Card>
                   );
                 })}
+              </div>
+              <div className="mt-8 border-t border-navy-100 pt-8">
+                <h2 className="text-lg font-semibold text-navy-900">{t("socialTitle")}</h2>
+                <p className="mt-2 text-sm text-navy-500">{t("socialDescription")}</p>
+                <SocialLinks className="mt-4" variant="default" showLabels />
               </div>
               <p className="mt-4 text-xs text-navy-400">{t("hours")}</p>
             </div>

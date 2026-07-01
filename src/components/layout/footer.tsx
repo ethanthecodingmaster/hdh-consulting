@@ -6,6 +6,7 @@ import { Phone, Mail, MessageCircle } from "lucide-react";
 import { siteConfig, serviceSlugs } from "@/lib/site-config";
 import { getContactPhone } from "@/lib/contact-phone";
 import { BrandWordmark } from "@/components/shared/brand-wordmark";
+import { SocialLinks } from "@/components/shared/social-links";
 
 const footerLinkKeys = [
   { href: "/about", key: "about" as const },
@@ -31,6 +32,10 @@ export function Footer() {
               <BrandWordmark label={t("brand")} className="text-white" />
             </Link>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-navy-300">{t("footer.tagline")}</p>
+            <div className="mt-6">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-navy-400">{t("footer.social")}</p>
+              <SocialLinks />
+            </div>
           </div>
           <div>
             <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t("footer.shortcuts")}</h2>

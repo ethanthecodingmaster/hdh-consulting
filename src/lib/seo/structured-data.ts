@@ -34,7 +34,7 @@ export function organizationSchema() {
     email: siteConfig.contact.email,
     areaServed: { "@type": "Country", name: "South Korea" },
     knowsAbout: [...siteConfig.seoKeywords, "유학", "유학 추천", "입시"],
-    sameAs: [siteConfig.social.instagram],
+    sameAs: Object.values(siteConfig.social),
     contactPoint: [
       {
         "@type": "ContactPoint",

@@ -28,7 +28,8 @@
       "tagline": "Expert study abroad consulting for US, UK, and Asia — admissions, boarding, graduate school, transfer, and extracurriculars.",
       "copyright": "© {year} HDH Consulting. All rights reserved.",
       "seoKeywords": "Study Abroad Consulting · College Admissions · International Education",
-      "hours": "KST 9:00 AM – 10:00 PM (consultations available year-round)"
+      "hours": "KST 9:00 AM – 10:00 PM (consultations available year-round)",
+      "social": "Social & profiles"
     },
     "breadcrumbHome": "Home"
   },
@@ -503,6 +504,8 @@
         "description": "Documents & detailed inquiries"
       }
     },
+    "socialTitle": "Social & external profiles",
+    "socialDescription": "Find HDH Consulting on Instagram, Facebook, and Soomgo.",
     "breadcrumb": "Contact",
     "hours": "KST 9:00 AM – 10:00 PM (consultations available year-round)",
     "breadcrumbHome": "Home"
