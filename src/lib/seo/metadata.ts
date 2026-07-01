@@ -56,7 +56,7 @@ export function createMetadata({
 }
 
 export const homeMetadata = createMetadata({
-  title: "합리적인 비용의 유학컨설팅",
+  title: "합리적인 비용의 맞춤형 유학컨설팅",
   description: "미국 영국 아시아권 입시컨설팅 | 편입컨설팅 | 보딩컨설팅 | 인턴십 | 대외활동",
   pathname: "/",
   locale: "ko",

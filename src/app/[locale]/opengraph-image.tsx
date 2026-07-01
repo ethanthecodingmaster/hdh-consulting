@@ -13,7 +13,7 @@ export default async function OpenGraphImage({
   const subtitle =
     locale === "en"
       ? "Affordable Study Abroad Consulting"
-      : "합리적인 비용의 유학컨설팅";
+      : "합리적인 비용의 맞춤형 유학컨설팅";
 
   return new ImageResponse(
     (
