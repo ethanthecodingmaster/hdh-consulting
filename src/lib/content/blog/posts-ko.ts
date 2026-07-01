@@ -3,7 +3,7 @@ import type { BlogPost } from "./types";
 export const blogPostsKo: Record<string, BlogPost> = {
   "boarding-school-essay-guide": {
     slug: "boarding-school-essay-guide",
-    publishedAt: "2026-01-15",
+    publishedAt: "2026-04-15",
     category: "essay",
     title: "보딩스쿨 에세이 작성법 — SAO·Personal Essay 완벽 가이드",
     excerpt:
@@ -40,7 +40,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "high-school-essay-guide": {
     slug: "high-school-essay-guide",
-    publishedAt: "2026-01-20",
+    publishedAt: "2026-04-22",
     category: "essay",
     title: "고등학생 유학 에세이 작성법 — Personal Statement 핵심 전략",
     excerpt:
@@ -77,7 +77,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "college-essay-guide": {
     slug: "college-essay-guide",
-    publishedAt: "2026-02-01",
+    publishedAt: "2026-04-29",
     category: "essay",
     title: "대입 에세이 작성법 — Common App & Supplemental 완벽 정리",
     excerpt:
@@ -113,7 +113,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "transfer-essay-guide": {
     slug: "transfer-essay-guide",
-    publishedAt: "2026-02-10",
+    publishedAt: "2026-05-06",
     category: "essay",
     title: "편입 에세이 작성법 — Transfer Essay & Why Transfer",
     excerpt:
@@ -149,7 +149,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "graduate-sop-guide": {
     slug: "graduate-sop-guide",
-    publishedAt: "2026-02-15",
+    publishedAt: "2026-05-13",
     category: "graduate",
     title: "대학원 SOP 작성법 — Statement of Purpose 완벽 가이드 2026",
     excerpt:
@@ -185,7 +185,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "ivy-league-admission-stats-2026": {
     slug: "ivy-league-admission-stats-2026",
-    publishedAt: "2026-03-01",
+    publishedAt: "2026-05-20",
     category: "statistics",
     title: "2026 아이비리그 합격률·입시 통계 — 유학 준비에 미치는 시사점",
     excerpt:
@@ -216,7 +216,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "uk-university-admission-stats-2026": {
     slug: "uk-university-admission-stats-2026",
-    publishedAt: "2026-03-05",
+    publishedAt: "2026-05-27",
     category: "statistics",
     title: "2026 영국 명문대 입시 통계 — Oxford, Cambridge, LSE 가이드",
     excerpt:
@@ -246,7 +246,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "singapore-hongkong-admission-stats-2026": {
     slug: "singapore-hongkong-admission-stats-2026",
-    publishedAt: "2026-03-10",
+    publishedAt: "2026-06-03",
     category: "statistics",
     title: "2026 싱가포르·홍콩 명문대 입시 통계 — NUS, NTU, HKU 가이드",
     excerpt:
@@ -276,7 +276,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-trends-2026": {
     slug: "study-abroad-trends-2026",
-    publishedAt: "2026-03-15",
+    publishedAt: "2026-06-10",
     category: "trends",
     title: "2026 유학·입시 트렌드 — 유학컨설팅이 말하는 올해 핵심",
     excerpt:
@@ -312,7 +312,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-03-22",
+    publishedAt: "2026-06-17",
     category: "guide",
     title: "2026 유학컨설팅 선택 가이드 — 좋은 유학 컨설팅 고르는 7가지 기준",
     excerpt:
@@ -372,7 +372,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-03-29",
+    publishedAt: "2026-06-24",
     category: "guide",
     title: "유학원 vs 유학컨설팅 — 차이점과 선택 기준",
     excerpt:
@@ -414,7 +414,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-04-05",
+    publishedAt: "2026-07-01",
     category: "guide",
     title: "미국·영국·아시아 유학 상담 받는 방법 — 무료 유학컨설팅 가이드",
     excerpt:

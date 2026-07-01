@@ -3,7 +3,7 @@ import type { BlogPost } from "./types";
 export const blogPostsEn: Record<string, BlogPost> = {
   "boarding-school-essay-guide": {
     slug: "boarding-school-essay-guide",
-    publishedAt: "2026-01-15",
+    publishedAt: "2026-04-15",
     category: "essay",
     title: "How to Write Boarding School Essays — SAO & Personal Essay Guide",
     excerpt:
@@ -40,7 +40,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "high-school-essay-guide": {
     slug: "high-school-essay-guide",
-    publishedAt: "2026-01-20",
+    publishedAt: "2026-04-22",
     category: "essay",
     title: "High School Study Abroad Essays — Personal Statement Essentials",
     excerpt:
@@ -77,7 +77,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "college-essay-guide": {
     slug: "college-essay-guide",
-    publishedAt: "2026-02-01",
+    publishedAt: "2026-04-29",
     category: "essay",
     title: "College Essay Guide — Common App & Supplements for 2026",
     excerpt:
@@ -113,7 +113,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "transfer-essay-guide": {
     slug: "transfer-essay-guide",
-    publishedAt: "2026-02-10",
+    publishedAt: "2026-05-06",
     category: "essay",
     title: "Transfer Essay Guide — Writing a Strong Why Transfer Statement",
     excerpt:
@@ -149,7 +149,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "graduate-sop-guide": {
     slug: "graduate-sop-guide",
-    publishedAt: "2026-02-15",
+    publishedAt: "2026-05-13",
     category: "graduate",
     title: "Graduate School SOP Guide — Statement of Purpose for 2026",
     excerpt:
@@ -185,7 +185,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "ivy-league-admission-stats-2026": {
     slug: "ivy-league-admission-stats-2026",
-    publishedAt: "2026-03-01",
+    publishedAt: "2026-05-20",
     category: "statistics",
     title: "2026 Ivy League Admission Statistics — What Applicants Should Know",
     excerpt:
@@ -216,7 +216,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "uk-university-admission-stats-2026": {
     slug: "uk-university-admission-stats-2026",
-    publishedAt: "2026-03-05",
+    publishedAt: "2026-05-27",
     category: "statistics",
     title: "2026 UK University Admission Statistics — Oxford, Cambridge, LSE",
     excerpt:
@@ -246,7 +246,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "singapore-hongkong-admission-stats-2026": {
     slug: "singapore-hongkong-admission-stats-2026",
-    publishedAt: "2026-03-10",
+    publishedAt: "2026-06-03",
     category: "statistics",
     title: "2026 Singapore & Hong Kong University Stats — NUS, NTU, HKU",
     excerpt:
@@ -276,7 +276,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-trends-2026": {
     slug: "study-abroad-trends-2026",
-    publishedAt: "2026-03-15",
+    publishedAt: "2026-06-10",
     category: "trends",
     title: "2026 Study Abroad Trends — What Matters This Admissions Cycle",
     excerpt:
@@ -312,7 +312,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-03-22",
+    publishedAt: "2026-06-17",
     category: "guide",
     title: "2026 Study Abroad Consulting Guide — 7 Criteria for Choosing a Firm",
     excerpt:
@@ -372,7 +372,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-03-29",
+    publishedAt: "2026-06-24",
     category: "guide",
     title: "Study Abroad Agency vs Consulting — Key Differences",
     excerpt:
@@ -414,7 +414,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-04-05",
+    publishedAt: "2026-07-01",
     category: "guide",
     title: "How to Get Study Abroad Advice — Free Consulting Guide",
     excerpt:
