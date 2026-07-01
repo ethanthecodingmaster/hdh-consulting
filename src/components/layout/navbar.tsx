@@ -6,7 +6,7 @@ import { Menu } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { serviceSlugs } from "@/lib/site-config";
-import { BrandWordmark } from "@/components/shared/brand-wordmark";
+import { BrandLogo } from "@/components/shared/brand-logo";
 import { buttonVariants } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
@@ -37,7 +37,7 @@ export function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6 lg:px-8">
         <div className="flex min-w-0 flex-1 items-center gap-1 sm:gap-2 lg:gap-4">
           <Link href="/" className="shrink-0" aria-label={t("brand")}>
-            <BrandWordmark label={t("brand")} />
+            <BrandLogo priority />
           </Link>
 
           <nav className="hidden items-center lg:flex" aria-label={t("nav.services")}>
@@ -98,7 +98,7 @@ export function Navbar() {
               <SheetHeader>
                 <SheetTitle>
                   <Link href="/" onClick={() => setOpen(false)} className="inline-block">
-                    <BrandWordmark label={t("brand")} />
+                    <BrandLogo />
                   </Link>
                 </SheetTitle>
               </SheetHeader>
