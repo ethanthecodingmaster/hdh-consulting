@@ -3,9 +3,9 @@
  */
 export const siteConfig = {
   name: "HDH Consulting",
-  tagline: "합리적인 비용의 맞춤형 유학컨설팅",
+  tagline: "합리적인 비용의 온라인 유학컨설팅",
   description:
-    "HDH Consulting은 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅을 제공하는 전문 유학컨설팅 회사입니다.",
+    "미국 영국 아시아권 입시컨설팅 | 편입컨설팅 | 보딩컨설팅 | 인턴십 | 대외활동. HDH Consulting 유학컨설팅.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://hdh-consulting.com",
   locale: "ko_KR",
   language: "ko",

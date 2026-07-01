@@ -56,9 +56,8 @@ export function createMetadata({
 }
 
 export const homeMetadata = createMetadata({
-  title: "유학컨설팅 HDH Consulting | 합리적인 비용 맞춤형 유학·입시",
-  description:
-    "유학컨설팅 전문 HDH Consulting. 미국·영국·아시아권 입시부터 대외활동까지 합리적인 비용의 맞춤 유학컨설팅. 무료 상담 010-7744-1684.",
+  title: "합리적인 비용의 온라인 유학컨설팅",
+  description: "미국 영국 아시아권 입시컨설팅 | 편입컨설팅 | 보딩컨설팅 | 인턴십 | 대외활동",
   pathname: "/",
   locale: "ko",
 });
