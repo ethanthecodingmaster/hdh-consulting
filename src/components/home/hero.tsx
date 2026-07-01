@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { CtaButton } from "@/components/shared/cta-button";
-import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -26,13 +25,8 @@ export function Hero() {
       />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <Badge variant="secondary" className="mb-4 border-white/20 bg-white/10 text-accent-200 backdrop-blur-sm">
-            {t("badge")}
-          </Badge>
           <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            {t("h1Line1")}
-            <br />
-            <span className="text-accent-300">{t("h1Highlight")}</span> {t("h1Line2")}
+            {t("headline")}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-navy-200 sm:text-xl">{t("description")}</p>
           <ul className="mt-8 grid gap-2 sm:grid-cols-2">

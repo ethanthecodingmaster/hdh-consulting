@@ -32,10 +32,7 @@
     "breadcrumbHome": "홈"
   },
   "home": {
-    "badge": "합리적인 비용의 유학컨설팅",
-    "h1Line1": "성공적인 유학을 위한",
-    "h1Highlight": "유학컨설팅",
-    "h1Line2": "HDH Consulting",
+    "headline": "합리적인 비용의 맞춤형 유학컨설팅",
     "description": "미국·영국·아시아권 대입부터 대외활동까지, 입시 데이터 기반 맞춤 유학 전략을 제공합니다.",
     "trustPoints": [
       "명문대 출신 전문 컨설턴트",

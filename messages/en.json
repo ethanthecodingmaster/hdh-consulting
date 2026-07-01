@@ -32,10 +32,7 @@
     "breadcrumbHome": "Home"
   },
   "home": {
-    "badge": "Affordable Study Abroad Consulting",
-    "h1Line1": "Your path to studying abroad starts with",
-    "h1Highlight": "expert consulting",
-    "h1Line2": "HDH Consulting",
+    "headline": "Affordable, Tailored Study Abroad Consulting",
     "description": "From US, UK, and Asia university admissions to extracurricular strategy — we build data-driven, personalized plans for every student.",
     "trustPoints": [
       "Consultants from top universities",
