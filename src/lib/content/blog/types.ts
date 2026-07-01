@@ -8,11 +8,14 @@ export const blogSlugs = [
   "uk-university-admission-stats-2026",
   "singapore-hongkong-admission-stats-2026",
   "study-abroad-trends-2026",
+  "study-abroad-consulting-guide-2026",
+  "agency-vs-consulting",
+  "study-abroad-consultation-guide",
 ] as const;
 
 export type BlogSlug = (typeof blogSlugs)[number];
 
-export type BlogCategory = "essay" | "graduate" | "statistics" | "trends";
+export type BlogCategory = "essay" | "graduate" | "statistics" | "trends" | "guide";
 
 export type BlogSection = {
   heading?: string;
