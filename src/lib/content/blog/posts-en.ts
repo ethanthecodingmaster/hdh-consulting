@@ -323,49 +323,76 @@ export const blogPostsEn: Record<string, BlogPost> = {
     sections: [
       {
         paragraphs: [
-          "Searching for 'study abroad consulting' returns countless options — but scope, pricing, outcome data, and consultant quality vary widely. In the 2026 cycle, verified outcomes and truly tailored strategy matter more than ever.",
+          "Searching for study abroad consulting returns countless options — but scope, pricing, outcome transparency, and consultant quality vary widely. In the 2026 cycle, AI essay scrutiny, deeper EC expectations, and overlapping international deadlines make it critical to choose verified consulting from the start.",
+          "This guide outlines seven criteria families can use before signing — plus a printable checklist at the end.",
         ],
       },
       {
         heading: "1. Verify acceptance data",
         paragraphs: [
-          "Strong firms share specific outcomes: Ivy League, QS Top 50, Oxbridge, and similar placements with context on the student's starting profile — not vague claims like 'many top acceptances.'",
+          "Strong firms share specific outcomes: Ivy League, QS Top 50, Oxbridge, NUS, HKU — with context on each student's starting profile. Vague claims like 'many top acceptances' are not enough.",
+          "Ask in consultation: 'Do you have recent cases similar to my profile?' If answers stay generic, compare other firms. HDH Consulting publishes anonymized success stories on its website.",
         ],
       },
       {
         heading: "2. Confirm true 1:1 customization",
         paragraphs: [
-          "Unlike large agency packages, consulting should build school lists and timelines around each student's GPA, activities, and target countries. Ask about meeting limits and whether your consultant stays assigned throughout.",
+          "Large agency packages often rely on fixed curricula and group instruction. Consulting should build school lists and 18–24 month roadmaps around each student's GPA, activities, and target countries.",
+          "Confirm: meeting limits, whether your consultant stays assigned, and whether essay support is round-limited or quality-based.",
         ],
       },
       {
         heading: "3. Check service scope",
         paragraphs: [
-          "Look for integrated support across university, boarding, graduate, transfer, and extracurricular strategy — plus essays, recommendations, and interviews.",
+          "Some firms focus only on university admissions; others cover boarding, graduate school, transfer, and extracurricular strategy together. For competitive targets, integrated support often outperforms siloed services.",
+          "Compare quotes on: Common App / UCAS support, supplemental essays, recommendations, interviews, and visa guidance — 'admissions consulting' means different things at different firms.",
         ],
       },
       {
         heading: "4. Compare value, not just price",
         paragraphs: [
-          "Fair pricing means transparent scope: essay revision rounds, number of schools, and any add-on fees should be clear in writing before you sign.",
+          "Consulting fees depend on countries, school count, essay volume, and EC inclusion. The lowest quote is not always the best deal — two revision rounds vs. an open feedback loop produce different outcomes.",
+          "Fair pricing means transparent scope: know when add-on fees apply (extra schools, extra essays, rush edits) before you sign.",
         ],
       },
       {
         heading: "5. Review consultant credentials",
         paragraphs: [
-          "Top-university backgrounds, real admissions experience, and deep knowledge of your target country's system are essential.",
+          "A prestigious degree alone is not enough. Look for real admissions experience, country-specific expertise, and whether strategy, EC, and essay support are covered by a coordinated team.",
+          "Consulting is closer to decision partnership than information delivery — notice whether your first conversation feels specific and responsive.",
         ],
       },
       {
         heading: "6. Communication channels",
         paragraphs: [
-          "Admissions prep generates urgent questions. Confirm phone, KakaoTalk, email availability and reasonable response times in KST.",
+          "Admissions prep generates urgent questions — test scores, activity changes, looming deadlines. Confirm phone, KakaoTalk, and email availability plus typical KST response times.",
+          "For families abroad, check whether meeting windows work across time zones and how 'urgent questions' are handled between scheduled sessions.",
         ],
       },
       {
         heading: "7. Start with a free consultation",
         paragraphs: [
-          "Trusted consulting firms offer an initial free session. HDH Consulting provides tailored, affordable study abroad consulting for the US, UK, and Asia. Free consultation: +82-10-7744-1684.",
+          "Trusted firms usually offer a free first session. Expect a draft roadmap, realistic school lanes (reach / match / safety), and a preparation timeline before you commit.",
+          "HDH Consulting provides tailored, affordable study abroad consulting for the US, UK, and Asia — from admissions through extracurricular strategy. Free consultation: +82-10-7744-1684 (admissions), +82-10-7403-3510 (EC).",
+        ],
+      },
+      {
+        heading: "Printable checklist",
+        paragraphs: [
+          "□ Reviewed specific acceptance cases (profile + outcome school)",
+          "□ Confirmed consultant assignment and meeting frequency",
+          "□ Received written scope for essays, EC, applications, interviews",
+          "□ Understood add-on fee triggers",
+          "□ Confirmed communication channels and response times",
+          "□ Received a draft roadmap in the free session",
+          "□ Verified fit for my goal (university / boarding / transfer / graduate)",
+        ],
+      },
+      {
+        heading: "Closing — consulting is an investment",
+        paragraphs: [
+          "Study abroad outcomes depend as much on preparation choices as on tuition. Consulting is less about spending money and more about reducing mistakes and raising acceptance odds. Compare 2–3 firms using these seven criteria before deciding.",
+          "For program details, visit HDH Consulting's service pages or request a free consultation on the website.",
         ],
       },
     ],
@@ -383,31 +410,61 @@ export const blogPostsEn: Record<string, BlogPost> = {
     sections: [
       {
         paragraphs: [
-          "In Korea, '유학원' (agency) and '유학컨설팅' (consulting) are often used interchangeably — but the service models differ. Choosing the right fit matters for competitive 2026 admissions.",
+          "In Korea, '유학원' (agency) and '유학컨설팅' (consulting) are often used interchangeably — but the models differ. Agencies often package language study and multi-country pathways; consulting focuses on 1:1 admissions strategy, essays, EC, and applications.",
+          "In competitive 2026 admissions, the same budget can produce very different outcomes. This article compares both models and explains who benefits most from specialized consulting.",
+        ],
+      },
+      {
+        heading: "Side-by-side comparison",
+        paragraphs: [
+          "【Agency】 Standardized programs · group classes · broad country options · package pricing · consultant turnover possible",
+          "【Consulting】 1:1 tailored strategy · data-driven school lists · integrated essay / EC / application support · flexible scope-based pricing · dedicated consultant model",
+          "Neither is universally 'better' — competitive university / boarding / transfer / graduate goals often favor consulting; exploratory language-study paths may favor agencies.",
         ],
       },
       {
         heading: "Large agencies",
         paragraphs: [
-          "Agencies typically offer standardized programs, group classes, and fixed packages. They may cover many countries and language-study pathways — but personalized strategy and consistent consultants can be limited.",
+          "Agencies offer brand recognition, nationwide branches, and multi-country comparison in one place. Language-study pathways and study-abroad logistics are common strengths.",
+          "Admissions depth may be lighter, with fixed curricula limiting essay and story development. Ask who owns your case end-to-end if counselors change mid-process.",
         ],
       },
       {
         heading: "Specialized consulting",
         paragraphs: [
-          "Consulting focuses on 1:1 strategy, data-driven school selection, and full-cycle support for applications, essays, EC, and interviews. Teams like HDH Consulting concentrate resources on each student.",
+          "Consulting designs school lists, EC roadmaps, and essay strategy per student. Teams like HDH Consulting concentrate resources on each case rather than scaling standardized packages.",
+          "Integrated management helps when US early deadlines, UK UCAS, and Asia applications overlap. Firms that explain 'why this school' with data tend to earn more trust.",
         ],
       },
       {
-        heading: "Cost comparison",
+        heading: "Cost — compare scope, not headlines",
         paragraphs: [
-          "Compare what's included: essay rounds, school count, EC consulting — not just the headline price.",
+          "Agency packages may bundle language study and admin fees. Consulting quotes vary by school count, essay volume, and EC inclusion.",
+          "Line up: essay revision rounds, supplemental coverage, extra-school fees, interview support, and rush feedback — two similar totals can mean very different service.",
         ],
       },
       {
         heading: "Who benefits from consulting?",
         paragraphs: [
-          "Students targeting competitive US, UK, or Asia universities; those needing boarding, graduate, or transfer strategy; and anyone who needs deep EC and essay support. HDH Consulting offers affordable tailored consulting.",
+          "① Targeting competitive US, UK, or Asia universities or boarding schools",
+          "② Need differentiation through EC and essays",
+          "③ Require transfer, graduate, or multi-country strategy",
+          "④ Value a fixed consultant and regular 1:1 feedback",
+          "Many families use agencies for exploration and consulting for serious admissions — both roles can coexist.",
+        ],
+      },
+      {
+        heading: "Common mistakes when choosing",
+        paragraphs: [
+          "Deciding on friendliness alone — always get written scope, case studies, and team structure. Avoid firms with slogans but no examples.",
+          "Also avoid ghostwriting shops. In 2026, authenticity and AI scrutiny are rising — choose revision that strengthens the student's voice.",
+        ],
+      },
+      {
+        heading: "Where HDH Consulting fits",
+        paragraphs: [
+          "HDH Consulting focuses on tailored 1:1 study abroad consulting — not mass-market packages. We support university, boarding, transfer, graduate, and EC strategy at fair pricing.",
+          "Not sure which model fits? Request a free consultation: +82-10-7744-1684 (admissions), +82-10-7403-3510 (EC).",
         ],
       },
     ],
@@ -425,31 +482,52 @@ export const blogPostsEn: Record<string, BlogPost> = {
     sections: [
       {
         paragraphs: [
-          "'Study abroad consultation' is one of the first searches families make. One strong session can set direction for 6–12 months of preparation.",
+          "'Study abroad consultation' is one of the first searches families make. One strong session can set direction for 6–12 months — but unprepared meetings often end with generic advice.",
+          "This guide covers what to bring, questions to ask, and channel-specific tips for US, UK, and Asia consulting — free or paid.",
         ],
       },
       {
         heading: "What to prepare",
         paragraphs: [
-          "Current grade, GPA, target countries and majors, test prep status (SSAT/SAT/IELTS), activity summary, and intended entry year.",
+          "Bring notes on: ① current grade and graduation year ② GPA or school transcript summary ③ target countries and majors ④ test prep status (SSAT/SAT/ACT/IELTS/TOEFL) ⑤ top 2–3 activities ⑥ rough budget range",
+          "Full documents are not required for a first call — but you need a realistic sense of your level to discuss school lanes.",
         ],
       },
       {
-        heading: "Questions to ask",
+        heading: "Student vs parent participation",
         paragraphs: [
-          "① Realistic school list for your profile? ② Essay, EC, and test timeline? ③ Cost and included services? ④ Consultant assignment and meeting frequency? ⑤ Similar acceptance cases?",
+          "Ideally both attend: parents on schedule, budget, and safety; students on goals, activities, and essay direction. If only the student attends, ask for a summary families can review together.",
+          "Some firms offer parent-only Q&A time — separating student-facing and parent-facing topics reduces confusion.",
         ],
       },
       {
-        heading: "Contact HDH Consulting",
+        heading: "10 questions to ask",
         paragraphs: [
-          "Free consultation via phone (admissions +82-10-7744-1684, EC +82-10-7403-3510), KakaoTalk, or email (info@hdh-consulting.com). KST 09:00–22:00. Web form submissions answered within 24 hours.",
+          "① Realistic school list for my profile? ② Top three priorities right now? ③ Essay / EC / test timeline? ④ Cost and included services? ⑤ Who is my consultant — can they change? ⑥ Similar recent acceptances? ⑦ Best country fit today? ⑧ Right track — boarding / university / transfer / graduate? ⑨ KakaoTalk / phone hours? ⑩ When do extra fees apply?",
+          "Firms that answer specifically tend to be more trustworthy. Vague answers mean compare another consultation.",
         ],
       },
       {
-        heading: "Online vs in-person",
+        heading: "Channel tips",
         paragraphs: [
-          "Video meetings work well for deep consulting in 2026. What matters is regular 1:1 feedback — not the format alone.",
+          "【Phone】 Fast for direction. HDH: +82-10-7744-1684 (admissions), +82-10-7403-3510 (EC).",
+          "【KakaoTalk】 Easy for follow-up questions and sharing files. Send a short intro before the first reply.",
+          "【Email / web form】 info@hdh-consulting.com — good for attachments; expect contact within 24 hours.",
+          "【Video】 Deep consulting works well online in 2026. Ask to review timelines and school lists on screen.",
+        ],
+      },
+      {
+        heading: "HDH Consulting free consultation",
+        paragraphs: [
+          "HDH Consulting offers free first sessions by phone, KakaoTalk, email, and web form. KST 09:00–22:00, year-round.",
+          "After consultation you can receive a draft roadmap, recommended services, and a preparation timeline — no obligation to sign.",
+        ],
+      },
+      {
+        heading: "After-consultation checklist",
+        paragraphs: [
+          "□ Heard realistic school lanes  □ Received a 6–12 month draft plan  □ Understood cost and scope  □ Know consultant and contact method  □ Compared at least one other firm",
+          "Study abroad is a major family decision. HDH Consulting supports US, UK, and Asia admissions with tailored, affordable consulting.",
         ],
       },
     ],
