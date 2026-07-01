@@ -40,6 +40,11 @@ export async function generateMetadata({
     },
     description: t("site.description"),
     keywords: [...siteConfig.seoKeywords],
+    verification: {
+      other: {
+        "naver-site-verification": "3b75b232695b015f2b9cb6175310cb07cf66c5bd",
+      },
+    },
   };
 }
 
