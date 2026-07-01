@@ -29,7 +29,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block">
-              <BrandLogo className="h-8 brightness-0 invert" />
+              <BrandLogo variant="footer" />
             </Link>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-navy-300">{t("footer.tagline")}</p>
             <div className="mt-6">

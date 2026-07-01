@@ -11,9 +11,26 @@ export const brandLogoAsset = {
 type BrandLogoProps = {
   className?: string;
   priority?: boolean;
+  /** White wordmark for dark backgrounds (e.g. footer). */
+  variant?: "default" | "footer";
 };
 
-export function BrandLogo({ className, priority = false }: BrandLogoProps) {
+export function BrandLogo({ className, priority = false, variant = "default" }: BrandLogoProps) {
+  if (variant === "footer") {
+    return (
+      <span
+        className={cn(
+          "font-brand inline-block leading-none text-white",
+          className
+        )}
+        aria-label="HDH Consulting"
+      >
+        <span className="block text-lg font-semibold tracking-[0.02em]">HDH</span>
+        <span className="block text-base font-medium tracking-[0.01em]">Consulting</span>
+      </span>
+    );
+  }
+
   return (
     <Image
       src={brandLogoAsset.src}
