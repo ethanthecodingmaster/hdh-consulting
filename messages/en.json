@@ -59,7 +59,8 @@
     "services": {
       "label": "Consulting Services",
       "title": "Our Consulting Services",
-      "description": "Personalized support for every stage — school selection, essays, recommendations, and extracurriculars."
+      "description": "Personalized support for every stage — school selection, essays, recommendations, and extracurriculars.",
+      "viewAll": "View all consulting services"
     },
     "why": {
       "label": "Why HDH Consulting",

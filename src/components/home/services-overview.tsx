@@ -6,6 +6,8 @@ import { Link } from "@/i18n/navigation";
 import { serviceSlugs } from "@/lib/site-config";
 import { SectionHeading } from "@/components/shared/cta-button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 const iconMap = {
   GraduationCap,
@@ -58,6 +60,18 @@ export function ServicesOverview() {
               </Card>
             );
           })}
+        </div>
+        <div className="mt-10 text-center">
+          <Link
+            href="/services"
+            className={cn(
+              buttonVariants({ variant: "outline", size: "lg" }),
+              "h-11 gap-2 border-navy-200 px-6 text-navy-800 hover:bg-navy-50"
+            )}
+          >
+            {t("viewAll")}
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </Link>
         </div>
       </div>
     </section>

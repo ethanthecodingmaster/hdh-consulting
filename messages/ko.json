@@ -59,7 +59,8 @@
     "services": {
       "label": "Consulting Services",
       "title": "유학컨설팅 서비스",
-      "description": "해외 유학을 희망하는 모든 학생을 위한 맞춤형 컨설팅. 학교 선정부터 에세이, 추천서, 대외활동까지 전 과정을 함께합니다."
+      "description": "해외 유학을 희망하는 모든 학생을 위한 맞춤형 컨설팅. 학교 선정부터 에세이, 추천서, 대외활동까지 전 과정을 함께합니다.",
+      "viewAll": "전체 유학컨설팅 서비스 보기"
     },
     "why": {
       "label": "Why HDH Consulting",
