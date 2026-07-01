@@ -29,7 +29,7 @@ export function createMetadata({
   const url = absoluteUrl(pathname, locale, siteConfig.url);
 
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords: keywords ?? [...siteConfig.seoKeywords],
     alternates: {
