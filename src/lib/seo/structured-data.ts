@@ -181,6 +181,66 @@ export function getServicesListSchema(
   };
 }
 
+type SuccessStorySchemaInput = {
+  id: string;
+  summary: string;
+  detail: string;
+  university: string;
+  major: string;
+  year: string;
+  service: string;
+  highlight: string;
+};
+
+export function getSuccessStoriesSchema(
+  stories: SuccessStorySchemaInput[],
+  locale: Locale,
+  pageTitle: string,
+  pageDescription: string
+) {
+  const path = locale === "ko" ? "/success-stories" : "/en/success-stories";
+  const url = `${siteConfig.url}${path}`;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: pageTitle,
+    description: pageDescription,
+    url,
+    inLanguage: locale === "ko" ? "ko-KR" : "en-US",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    about: {
+      "@type": "Thing",
+      name: locale === "ko" ? "유학컨설팅 합격 사례" : "Study abroad consulting success stories",
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      name: pageTitle,
+      numberOfItems: stories.length,
+      itemListElement: stories.map((story, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "Article",
+          "@id": `${url}#${story.id}`,
+          headline: story.summary,
+          description: story.detail,
+          articleBody: `${story.detail} (${story.highlight})`,
+          author: { "@id": `${siteConfig.url}/#organization` },
+          publisher: { "@id": `${siteConfig.url}/#organization` },
+          datePublished: `${story.year}-09-01`,
+          about: {
+            "@type": "EducationalOrganization",
+            name: story.university,
+          },
+          keywords: [story.service, story.major, "유학컨설팅", "유학", "합격 사례"],
+        },
+      })),
+    },
+  };
+}
+
 export function breadcrumbSchema(items: { name: string; path: string }[]) {
   return {
     "@context": "https://schema.org",

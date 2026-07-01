@@ -2,7 +2,7 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SectionHeading, CtaButton } from "@/components/shared/cta-button";
 import { JsonLd } from "@/components/seo/json-ld";
-import { breadcrumbSchema } from "@/lib/seo/structured-data";
+import { breadcrumbSchema, getSuccessStoriesSchema } from "@/lib/seo/structured-data";
 import { createMetadata } from "@/lib/seo/metadata";
 import type { Locale } from "@/i18n/routing";
 import { Badge } from "@/components/ui/badge";
@@ -50,10 +50,13 @@ export default async function SuccessStoriesPage({
   return (
     <>
       <JsonLd
-        data={breadcrumbSchema([
-          { name: tCommon("breadcrumbHome"), path: "/" },
-          { name: tCommon("nav.successStories"), path: "/success-stories" },
-        ])}
+        data={[
+          breadcrumbSchema([
+            { name: tCommon("breadcrumbHome"), path: "/" },
+            { name: tCommon("nav.successStories"), path: "/success-stories" },
+          ]),
+          getSuccessStoriesSchema(stories, locale as Locale, t("metaTitle"), t("metaDescription")),
+        ]}
       />
 
       <section className="gradient-hero pt-28 pb-16 sm:pt-36 sm:pb-20">
@@ -71,7 +74,7 @@ export default async function SuccessStoriesPage({
           <SectionHeading title={t("sectionTitle")} description={t("sectionDescription")} />
           <div className="grid gap-6 md:grid-cols-2">
             {stories.map((story) => (
-              <Card key={story.id} className="border-navy-100">
+              <Card key={story.id} id={story.id} className="border-navy-100">
                 <CardHeader>
                   <div className="flex flex-wrap items-center gap-2">
                     <Badge variant="secondary">{story.year}</Badge>
