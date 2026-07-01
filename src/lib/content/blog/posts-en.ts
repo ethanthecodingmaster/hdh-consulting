@@ -312,7 +312,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-07-01",
+    publishedAt: "2026-03-22",
     category: "guide",
     title: "2026 Study Abroad Consulting Guide — 7 Criteria for Choosing a Firm",
     excerpt:
@@ -372,7 +372,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-07-02",
+    publishedAt: "2026-03-29",
     category: "guide",
     title: "Study Abroad Agency vs Consulting — Key Differences",
     excerpt:
@@ -414,7 +414,7 @@ export const blogPostsEn: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-07-03",
+    publishedAt: "2026-04-05",
     category: "guide",
     title: "How to Get Study Abroad Advice — Free Consulting Guide",
     excerpt:

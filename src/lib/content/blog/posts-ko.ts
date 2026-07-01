@@ -312,7 +312,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consulting-guide-2026": {
     slug: "study-abroad-consulting-guide-2026",
-    publishedAt: "2026-07-01",
+    publishedAt: "2026-03-22",
     category: "guide",
     title: "2026 유학컨설팅 선택 가이드 — 좋은 유학 컨설팅 고르는 7가지 기준",
     excerpt:
@@ -372,7 +372,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "agency-vs-consulting": {
     slug: "agency-vs-consulting",
-    publishedAt: "2026-07-02",
+    publishedAt: "2026-03-29",
     category: "guide",
     title: "유학원 vs 유학컨설팅 — 차이점과 선택 기준",
     excerpt:
@@ -414,7 +414,7 @@ export const blogPostsKo: Record<string, BlogPost> = {
   },
   "study-abroad-consultation-guide": {
     slug: "study-abroad-consultation-guide",
-    publishedAt: "2026-07-03",
+    publishedAt: "2026-04-05",
     category: "guide",
     title: "미국·영국·아시아 유학 상담 받는 방법 — 무료 유학컨설팅 가이드",
     excerpt:
