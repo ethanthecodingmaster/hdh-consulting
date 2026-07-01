@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { Phone, Mail, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { getContactPhone } from "@/lib/contact-phone";
+import { BrandWordmark } from "@/components/shared/brand-wordmark";
 
 const footerLinkKeys = [
   { href: "/about", key: "about" as const },
@@ -25,8 +26,8 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <Link href="/" className="inline-block text-xl font-bold tracking-tight text-white">
-              {t("brand")}
+            <Link href="/" className="inline-block">
+              <BrandWordmark label={t("brand")} className="text-white" />
             </Link>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-navy-300">{t("footer.tagline")}</p>
           </div>

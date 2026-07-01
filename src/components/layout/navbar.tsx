@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { serviceSlugs } from "@/lib/site-config";
+import { BrandWordmark } from "@/components/shared/brand-wordmark";
 import { buttonVariants } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
@@ -16,19 +17,6 @@ const navLinkKeys = [
   { href: "/blog", key: "blog" as const },
   { href: "/contact", key: "contact" as const },
 ];
-
-function BrandWordmark({ label, className }: { label: string; className?: string }) {
-  return (
-    <span
-      className={cn(
-        "inline-block text-xl font-bold leading-tight tracking-tight text-[#1a0a54] sm:text-2xl",
-        className
-      )}
-    >
-      {label}
-    </span>
-  );
-}
 
 export function Navbar() {
   const t = useTranslations("common");

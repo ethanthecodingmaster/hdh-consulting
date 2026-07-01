@@ -33,6 +33,7 @@
   --color-warm-100: #efefef;
 
   --font-sans: "Pretendard Variable", Pretendard, var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-brand: var(--font-cormorant), ui-serif, Georgia, "Times New Roman", serif;
 }
 
 @layer base {
